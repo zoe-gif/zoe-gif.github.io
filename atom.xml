@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zoe&#39;s Blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-05-21T18:30:43.020Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zoe T</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3dsmax Basics</title>
+    <link href="http://example.com/2022/05/22/Tools/3dsmax-Basics/"/>
+    <id>http://example.com/2022/05/22/Tools/3dsmax-Basics/</id>
+    <published>2022-05-21T18:22:18.000Z</published>
+    <updated>2022-05-21T18:30:43.020Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="3dsmax" scheme="http://example.com/tags/3dsmax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>II. General</title>
+    <link href="http://example.com/2022/04/12/Study%20notes/Construction/Building%20technology/1.General/"/>
+    <id>http://example.com/2022/04/12/Study%20notes/Construction/Building%20technology/1.General/</id>
+    <published>2022-04-12T14:36:01.000Z</published>
+    <updated>2022-04-17T16:44:18.103Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Built-Environment"><a href="#Built-Environment" class="headerlink" title="Built Environment"></a>Built Environment</h2><h3 id="Environment-considerations"><a href="#Environment-considerations" class="headerlink" title="Environment considerations"></a>Environment considerations</h3><ul><li>Development control <ul><li>Planning requirements</li><li>Building regulations</li><li>Land lease restrictions</li></ul></li><li>Adjacent environmonet<ul><li>Availability of services</li><li>Local amenities including transporation</li><li>Subsoil conditions</li><li>Level and topography of land</li><li>Adjoining buildings or land</li><li>Daylight and view aspects</li></ul></li><li>Use of building</li></ul><h3 id="Physical-considerations"><a href="#Physical-considerations" class="headerlink" title="Physical considerations"></a>Physical considerations</h3><ul><li>Natural contours of land</li><li>Natural vegetation and trees</li><li>Size of land and proposed building</li><li>Shape of land and proposed building</li><li>Approach and access roads and footpaths</li><li>Services available</li><li>Natural waterways, lakes and ponds</li><li>Restrictions such as rights of ways; tree preservation</li><li>Tree preservation and ancient buildings</li><li>Climatic conditions created by surrounding properties, land or activities</li><li>Proposed future developments</li></ul><h2 id="Structure-Basic-Types"><a href="#Structure-Basic-Types" class="headerlink" title="Structure - Basic Types"></a>Structure - Basic Types</h2><ul><li>Simply supported beam: free ends</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233319.png" width="300" height=""><ul><li>Built-in beam: fixity</li><li>Cantilever beam</li><li>Propped cantilever: propped at free end</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233521.png" width="300" height=""><ul><li>Struct: mainly subject to compression forces (in truss structure)</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233554.png" width="300" height=""><ul><li>Vertical struct: column&#x2F;stanchion&#x2F;pier</li><li>Tie: subject mainly to tension forces</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233626.png" width="400" height=""><ul><li>Arch: loads transmitted around arch to the abutment</li><li>Post and lintel</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233652.png" width="300" height=""><ul><li>Plane frame</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233725.png" width="300" height=""><ul><li>Solid construction with load bearing walls: low height and short spans</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233742.png" width="300" height=""><ul><li>Framed or skeletal construction</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233758.png" width="300" height=""><ul><li>Panel or box construction: consists of a series of interconnected plates forming structural walls and floors</li></ul><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220412233814.png" width="300" height="">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Built-Environment&quot;&gt;&lt;a href=&quot;#Built-Environment&quot; class=&quot;headerlink&quot; title=&quot;Built Environment&quot;&gt;&lt;/a&gt;Built Environment&lt;/h2&gt;&lt;h3 id=&quot;Envir</summary>
+      
+    
+    
+    
+    <category term="Study notes" scheme="http://example.com/categories/Study-notes/"/>
+    
+    <category term="Construction" scheme="http://example.com/categories/Study-notes/Construction/"/>
+    
+    <category term="Building technology" scheme="http://example.com/categories/Study-notes/Construction/Building-technology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Glossary and Terms</title>
+    <link href="http://example.com/2022/04/12/Study%20notes/Construction/Building%20technology/0.Glossary-and-Terms/"/>
+    <id>http://example.com/2022/04/12/Study%20notes/Construction/Building%20technology/0.Glossary-and-Terms/</id>
+    <published>2022-04-12T14:26:01.000Z</published>
+    <updated>2022-05-21T18:32:32.890Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Building-elements"><a href="#Building-elements" class="headerlink" title="Building elements"></a>Building elements</h2><p>prop - 支柱<br>stanchion - column - pier</p><h2 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h2><p>出餅仔 - 拉鋤頭 - 批盪（泥水批蕩點綫面，乾后下一步驟）</p><h2 id="Plant"><a href="#Plant" class="headerlink" title="Plant"></a>Plant</h2><h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><p>amenity - 便利设施<br>topography - 地形地势<br>contour of land - 地形轮廓线<br>right of way - eligibility to pass another land<br>plateu - 高原<br>curtilage - 宅邸<br>abutment - 邻接</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Building-elements&quot;&gt;&lt;a href=&quot;#Building-elements&quot; class=&quot;headerlink&quot; title=&quot;Building elements&quot;&gt;&lt;/a&gt;Building elements&lt;/h2&gt;&lt;p&gt;prop - 支柱&lt;</summary>
+      
+    
+    
+    
+    <category term="Study notes" scheme="http://example.com/categories/Study-notes/"/>
+    
+    <category term="Construction" scheme="http://example.com/categories/Study-notes/Construction/"/>
+    
+    <category term="Building technology" scheme="http://example.com/categories/Study-notes/Construction/Building-technology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sounds of the World</title>
+    <link href="http://example.com/2022/04/11/Life%20sharing/Sounds-of-the-World/"/>
+    <id>http://example.com/2022/04/11/Life%20sharing/Sounds-of-the-World/</id>
+    <published>2022-04-11T15:54:05.000Z</published>
+    <updated>2022-04-11T16:13:12.474Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Original-Soundtack"><a href="#Original-Soundtack" class="headerlink" title="Original Soundtack"></a>Original Soundtack</h2><h3 id="Games"><a href="#Games" class="headerlink" title="Games"></a>Games</h3><ul><li><a href="https://www.youtube.com/watch?v=WBI_cOPTzPU&t=1031s">Divinity: Original Sin II</a></li><li><a href="https://www.youtube.com/watch?v=yZBZ54JUThE&t=13s">The Witcher 3: Wild Hunt</a></li><li><a href="https://www.youtube.com/watch?v=aQeIYVM3YBM">The Elder Scrolls V Skyrim</a></li></ul><h3 id="Movies"><a href="#Movies" class="headerlink" title="Movies"></a>Movies</h3><h2 id="White-Noise"><a href="#White-Noise" class="headerlink" title="White Noise"></a>White Noise</h2><h3 id="No-commentary-gameplay"><a href="#No-commentary-gameplay" class="headerlink" title="No commentary gameplay"></a>No commentary gameplay</h3><ul><li><a href="https://www.youtube.com/watch?v=AvB_KwSRvAI">theHunter: Call of the Wild</a></li></ul>]]></content>
+    
+    
+    <summary type="html">Sharing some of my favorite sounds.</summary>
+    
+    
+    
+    <category term="Life sharing" scheme="http://example.com/categories/Life-sharing/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hong Kong Standard Method of Measurement of Building Works - Fourth Edition (2005)</title>
+    <link href="http://example.com/2022/04/11/Study%20notes/Management/Measurement%20and%20estimating/HKSMM4-2005/"/>
+    <id>http://example.com/2022/04/11/Study%20notes/Management/Measurement%20and%20estimating/HKSMM4-2005/</id>
+    <published>2022-04-11T15:52:01.000Z</published>
+    <updated>2022-04-11T16:10:42.974Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="I-Use-of-Tabulated-Format"><a href="#I-Use-of-Tabulated-Format" class="headerlink" title="I. Use of Tabulated Format"></a>I. Use of Tabulated Format</h2><ul><li>Composition:<ul><li>Information to be provided, classification tables, supplementary rules</li><li>Double line: rules applied to all work in the Section</li><li>Broken line: rules above and below may be used as alternatives</li><li>Classification tables<ul><li>1st, 2nd, 3rd, 4th col (excluding measurement unit) to describe item</li><li>Item description should include at least 1st, 2nd, 3rd description</li></ul></li><li>Supplementary rules<ul><li>Measurement rules</li><li>Definition rules</li><li>Coverage rules: incidental work</li></ul></li><li>Cross-reference<ul><li>Section no. + sub-section no. + 1st col no. + 2nd col no. + 3rd col no. + 4th col no.</li></ul></li></ul></li></ul><h2 id="II-General-Principles"><a href="#II-General-Principles" class="headerlink" title="II. General Principles"></a>II. General Principles</h2><h3 id="Function-of-Bills-of-Quantities"><a href="#Function-of-Bills-of-Quantities" class="headerlink" title="Function of Bills of Quantities"></a>Function of Bills of Quantities</h3><ul><li>Describe materials and workmanship</li><li>Accurately represent the work</li><li>Provisional quantity when work cannot be accurately measured</li><li>Supplementary info about limits</li><li>Principles of measurement</li></ul><h3 id="Function-of-SMM"><a href="#Function-of-SMM" class="headerlink" title="Function of SMM"></a>Function of SMM</h3><ul><li>Uniform units of measurement</li><li>Standard allowances</li><li>Defined principle<ul><li>Method of measurement deviated from SMM shall be statement in the Preambles of BQ</li></ul></li><li>Applicability: preparation of BQ &amp; final account</li></ul><h3 id="General-Principles-of-SMM"><a href="#General-Principles-of-SMM" class="headerlink" title="General Principles of SMM"></a>General Principles of SMM</h3><ul><li>Units of measurement<ul><li>Weight - kg</li><li>Cube - m3</li><li>Super - m2</li><li>Run - m</li><li>Enumrated - number or set</li><li>Time - days or hours</li></ul></li><li>Rounding: nearest 10 millimeters</li><li>Reference to drawings and specification</li><li>Units of billing<ul><li>m or kg: <ul><li>Quanitities billed to the nearest whole unit</li><li>Fraction disregarded if less than half</li></ul></li><li>Billed as one whole unit if rounding eliminats an item</li><li>Variation or remeasurement<ul><li>m or kg biller to the nearest one tenth of a whole unit</li></ul></li></ul></li><li>Work measured net: no allowance for wastage</li><li>Order of dimensions: consistent, generally in length, width, height</li><li>Cost held to be included in items<ul><li>Labour</li><li>Material<ul><li>Cutting and waste</li><li>Fitting and fixing material</li><li>Conveyance, delivery, unload, storing, hoisting, etc.</li></ul></li><li>Plant</li><li>Establishment charges, overhead charges and profit</li></ul></li><li>Minimum deductions of voids<ul><li>Openings or wants detached from the boundaries of the space measured</li></ul></li><li>Dayowrks<ul><li>Provision should be made in Dayworks Schedule for the differentials to be priced</li></ul></li><li>Provisional and Prime Cost Sums<ul><li>Provisonal sum: <ul><li>A sum provided for work or for costs which cannot be entirely foreseen, defined or detailed at the time the tendering documents are issued.</li></ul></li><li>Prime cost sum: <ul><li>A sum provided for work or services to be executed by a Nominated Sub-Contractor or for materials or goods to be obtained from a Nominated Supplier.</li><li>Deemed to be exlusive of any profit or attendance required by the Contractor</li><li>Provision shall be made for the addition thereof</li></ul></li></ul></li><li>Separately stating works<ul><li>Work under reservoir, river or sea water</li><li>Work in compressed air</li><li>Work outside the curtilage of the site</li><li>Work in existing buildings<ul><li>Supplementary info about limits should be given<ul><li>Restrictions on access or timing</li><li>Disposal of debris</li><li>Disposition of plant and materials</li></ul></li></ul></li><li>Temporary works</li></ul></li></ul><h2 id="III-Preliminaries"><a href="#III-Preliminaries" class="headerlink" title="III. Preliminaries"></a>III. Preliminaries</h2>]]></content>
+    
+    
+    <summary type="html">Study notes of Hong Kong Standard Method of Measurement (2005).</summary>
+    
+    
+    
+    <category term="Study notes" scheme="http://example.com/categories/Study-notes/"/>
+    
+    <category term="Management" scheme="http://example.com/categories/Study-notes/Management/"/>
+    
+    
+    <category term="Measurement &amp; estimating" scheme="http://example.com/tags/Measurement-estimating/"/>
+    
+    <category term="SMM" scheme="http://example.com/tags/SMM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tender Documentation</title>
+    <link href="http://example.com/2022/04/11/Study%20notes/Management/Building%20contract/Tender-Documentation/"/>
+    <id>http://example.com/2022/04/11/Study%20notes/Management/Building%20contract/Tender-Documentation/</id>
+    <published>2022-04-11T15:48:52.000Z</published>
+    <updated>2022-04-12T14:24:53.418Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Composition-of-Tender-Documents"><a href="#Composition-of-Tender-Documents" class="headerlink" title="Composition of Tender Documents"></a>Composition of Tender Documents</h2><ul><li>Letter of Invitation to Tender</li><li>Conditions of Tender</li><li>Form of Tender</li><li>Gerneral Conditions of Contract</li><li>Special Conditions of Contract</li><li>Specifications<ul><li>Preliminaries</li><li>General Specification</li><li>Technical Specification</li></ul></li><li>Standard Method of Measurement (SMM)</li><li>Particular Preambles (if any)</li><li>Bill of Quantities (BQ)</li><li>Drawings</li></ul><h2 id="Invitation-to-Tender"><a href="#Invitation-to-Tender" class="headerlink" title="Invitation to Tender"></a>Invitation to Tender</h2><ul><li>Letter format</li><li>Project name, employer</li><li>Attachment (doc and drawings), collection method</li><li>Submission requirment (what, when, where)</li><li>Note:<ul><li>Reserve right not to accept lowest or any tender</li><li>Validity of tender submission</li><li>Acknowledge receipt of tender doc and drawings</li><li>If unable to tender, return with letter of explanation</li><li>Enquiry contact person</li></ul></li></ul><h2 id="Conditions-of-Tender"><a href="#Conditions-of-Tender" class="headerlink" title="Conditions of Tender"></a>Conditions of Tender</h2><ul><li>Tendering: <ul><li>submission requirements (how, where and when to submit tender)</li></ul></li><li>Composition of tender:<ul><li>Submission documents:<ul><li>Schedule of Rates with company stamp</li><li>Summary of Tender</li><li>Technical Schedule &#x2F; Material Schedule (if any)</li><li>Programme</li><li>Method statement</li><li>Outline Waste Magagement Plan</li><li>Outline Site Safety Plan</li><li>Outline Quality Control Procedure</li><li>Business Registration Certificagte</li><li>Organization chart &amp; staff CV</li><li>List of sub-contractors</li><li>Relevant job reference</li><li>BD, DevB, WB listing and registration</li><li>Other statement or cert:<ul><li>Letter if Anti-collusion Undertaking</li><li>Statement of Convictions under Immigration Ordinance</li><li>Statement of Convictions under Employment Ordinance</li><li>ISO cert</li></ul></li></ul></li><li>Clauses:<ul><li>Genuine error in tender<ul><li>Written note and amendment </li><li>Before the time fixed for receipt of tenders</li><li>No amendment during the examination of tenders</li></ul></li><li>Artithmetical erroers<ul><li>Calculated as a plus or minus percentage of the corrected total sum minus Provisional Sums and Contingency (if any)</li><li>Apply to tendered rates</li><li>If percentage error less than 0.5%, no adjustment</li></ul></li><li>Lump sum fixed price: no adjustment for fluctuations</li></ul></li><li>Tender evaluation methods (sample)<ul><li>Technical submission<ul><li>Passing mark</li><li>Experience<ul><li>Relevant job reference: number and contract sum</li></ul></li><li>Past performance</li><li>Site safety and accidents: accident record</li><li>Record against convictions</li></ul></li></ul></li></ul></li></ul><h2 id="Form-of-Tender"><a href="#Form-of-Tender" class="headerlink" title="Form of Tender"></a>Form of Tender</h2><ul><li>Contract sum</li><li>Agreement to abide the tender for certain period</li><li>Agreement to construction period</li><li>Agreement to warranty and bond</li><li>Signature, registered address of firm, date, witness</li></ul><h2 id="Conditions-of-Contract"><a href="#Conditions-of-Contract" class="headerlink" title="Conditions of Contract"></a>Conditions of Contract</h2><ul><li>Parties, registeration address, date</li><li>Main Contract parties, registeration address, date (if sub-contract)</li><li>Contract sum</li><li>Clauses</li><li>Essential information<ul><li>Defect Liability Period</li><li>Insurance and Surety Bond</li><li>Time after acceptance of Tender within which period for commencement of the Work</li><li>Construction Period</li><li>Tentative Commencement Date</li><li>Liquidated Damages</li><li>Percentage of certified value retained (rentention)</li><li>Limit of Retention Money</li><li>Minimum amount of interim certificate</li><li>Works involving preservation and protection of existing trees and Old and Valuable Trees</li></ul></li></ul><h2 id="Bills-of-Quantities"><a href="#Bills-of-Quantities" class="headerlink" title="Bills of Quantities"></a>Bills of Quantities</h2><ul><li>Function<ul><li>Allow comparison of tender prices</li><li>Provide means of valuing the work</li></ul></li><li>In accordance with SMM and the Standard Phraseology of Bill of Quantities Item Description (SPID)</li></ul>]]></content>
+    
+    
+    <summary type="html">Composition of Tender Documents.</summary>
+    
+    
+    
+    <category term="Study notes" scheme="http://example.com/categories/Study-notes/"/>
+    
+    <category term="Management" scheme="http://example.com/categories/Study-notes/Management/"/>
+    
+    <category term="Building contract" scheme="http://example.com/categories/Study-notes/Management/Building-contract/"/>
+    
+    
+    <category term="Tender" scheme="http://example.com/tags/Tender/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Theme Hexo Blog with Butterfly</title>
+    <link href="http://example.com/2022/04/11/Tools/Theme-Hexo-Blog-with-Butterfly/"/>
+    <id>http://example.com/2022/04/11/Tools/Theme-Hexo-Blog-with-Butterfly/</id>
+    <published>2022-04-11T15:03:03.000Z</published>
+    <updated>2022-04-11T16:53:48.810Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Choose-Hexo-Theme"><a href="#Choose-Hexo-Theme" class="headerlink" title="Choose Hexo Theme"></a>Choose Hexo Theme</h2><p>Default Theme is Landscape.<br>Choose your Hexo theme: <a href="https://hexo.io/themes/">https://hexo.io/themes/</a><br>Click image to view sample website, click theme name to get access to theme repository.<br>Here I recommend Butterfly:</p><ul><li>Powerful (toc, comment, wordcount, effect, etc.)</li><li>Clear documentation</li><li>Easy to customize</li></ul><h2 id="Install-Hexo-Theme"><a href="#Install-Hexo-Theme" class="headerlink" title="Install Hexo Theme"></a>Install Hexo Theme</h2><p>Copy theme repository link.<br>Clone repository to local in Git Bash:</p><pre><code>$ git clone [repository_link] /themes/[theme_name]</code></pre><p>Change theme configuration in _config.yml:</p><pre><code>theme: [theme_name]</code></pre><p>Copy <code>/themes/[theme_name]/_config.yml</code> (theme specific config) to project folder, rename file to <code>_config.[theme_name].yml</code><br>Customize your website using theme config file, see more in <a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly Tutorial</a>.</p><h2 id="Customization-in-Butterfly"><a href="#Customization-in-Butterfly" class="headerlink" title="Customization in Butterfly"></a>Customization in Butterfly</h2><p>See <a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly Tutorial</a> for most customization.</p><ol><li><p>Comment system</p><ul><li>Recommend to use <a href="https://waline.js.org/">Waline</a></li></ul></li><li><p>Theme color</p><ul><li>Change in config <code>theme_color</code></li><li>OR change in <code>/source/css/var.styl</code></li></ul></li><li><p>Background image</p><ul><li>Set in config <code>background: url(img/bg_name.jpg)</code><ul><li>Able to use gif image</li></ul></li><li>Advaned setting in <code>/source/css/_global/index.styl</code><ul><li><a href="https://www.w3schools.com/cssref/css3_pr_background.asp">See css format</a></li></ul></li></ul></li><li><p>Card transparency</p><ul><li>Change <code>$card-bg</code> in <code>/source/css/var.styl</code></li><li><code>$card-bg = rgba(r, g, b, a)</code><ul><li>a &#x3D; opacity percentage</li></ul></li></ul></li><li><p>Footer</p><ul><li>Add footer background image in config <code>footer_bg: url(/img/bg_name.jpg)</code></li><li>Customize content in config <code>footer</code></li><li>Change transparency and padding in <code>/source/css/_layout/footer.styl</code></li></ul></li><li><p>Pagination</p><ul><li>Change <code>&amp;.pagination-post</code> in <code>/source/css/_layout/pagination.styl</code></li></ul></li></ol>]]></content>
+    
+    
+    <summary type="html">Tutorial for people with no coding knowledge to decorate Hexo blog.</summary>
+    
+    
+    
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Useful Software</title>
+    <link href="http://example.com/2022/04/11/Tools/Useful-software/"/>
+    <id>http://example.com/2022/04/11/Tools/Useful-software/</id>
+    <published>2022-04-11T15:00:24.000Z</published>
+    <updated>2022-04-11T16:09:46.604Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Media"><a href="#Media" class="headerlink" title="Media"></a>Media</h2><ul><li><a href="https://www.videolan.org/vlc/">VLC</a> <ul><li>Media player</li></ul></li><li><a href="http://www.pcfreetime.com/">Format Factory</a> (paid)<ul><li>Media format conversion</li></ul></li><li><a href="https://github.com/LussacZheng/video-downloader-deploy">Video downloader deploy</a><ul><li>Super easy to deploy You-Get, Youtube-dl, Lux (annie), and FFmpeg</li></ul></li><li><a href="https://obsproject.com/">OBS Studio</a><ul><li>Screen  recording and streaming</li></ul></li></ul><h2 id="Code-editor"><a href="#Code-editor" class="headerlink" title="Code editor"></a>Code editor</h2><ul><li><a href="https://code.visualstudio.com/">VS Code</a> </li><li><a href="https://notepad-plus-plus.org/downloads/">Notepad + +</a></li></ul><h2 id="Desktop"><a href="#Desktop" class="headerlink" title="Desktop"></a>Desktop</h2><ul><li><a href="https://www.stardock.com/products/fences/">Stardock Fences 4</a> (paid)<ul><li>Folder portal</li><li>Multiple desktops</li><li>Desktop files grouping</li></ul></li><li><a href="http://chs.desktopcal.com/chs/">Desktop Calender</a> </li><li>Sticky notes (Windows)</li></ul><h2 id="Chrome-extension"><a href="#Chrome-extension" class="headerlink" title="Chrome extension"></a>Chrome extension</h2><ul><li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en">Tampermonkey</a><ul><li>Userscript manager</li><li><a href="chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/options.html#nav=79f43e5c-071a-43fa-8753-c4d970b535a7+editor">Youtube full theater</a></li></ul></li><li><a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en">Session Buddy</a><ul><li>Manage Browser Tabs and Bookmarks</li></ul></li><li><a href="https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en">Go full page</a><ul><li>Capture a screenshot of your current page in entirety</li></ul></li><li><a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom?hl=en">AdBlock</a></li><li><a href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en">AdBlock for Youtube</a></li><li><a href="https://chrome.google.com/webstore/detail/adfly-skipper/obnfifcganohemahpomajbhocfkdgmjb?hl=en">AdFly Skipper</a><ul><li>Skip adf.ly shortened links</li></ul></li><li><a href="https://chrome.google.com/webstore/detail/autoformer+/cjefgijpbofijpnfpncbjajignkcbbod?hl=en">AutoFormer+</a></li><li><a href="https://chrome.google.com/webstore/detail/separate-window/cbgkkbaghihhnaeabfcmmglhnfkfnpon?hl=en">Separate Window</a><ul><li>Derive an arbitrary area of a page in a separate popup window</li></ul></li></ul><h2 id="Andriod"><a href="#Andriod" class="headerlink" title="Andriod"></a>Andriod</h2><ul><li><a href="https://vancedapp.com/">Youtube Vanced</a><ul><li>Ad free for Youtube and Youtube Music</li></ul></li><li><a href="https://www.yimuapp.com/">一木记账</a><ul><li>Bookkeeping</li></ul></li></ul><h2 id="Text-editor"><a href="#Text-editor" class="headerlink" title="Text editor"></a>Text editor</h2><ul><li><a href="https://stackedit.io/">StackEdit</a><ul><li>Markdown</li><li>Online editor in browser</li><li>Sync to Google Drive&#x2F;Github</li></ul></li><li><a href="https://gitnoteapp.com/">GitNote</a><ul><li>Markdown</li><li>Plug-ins</li><li>Need to download</li><li>Sync to Github</li></ul></li></ul><h2 id="PDF"><a href="#PDF" class="headerlink" title="PDF"></a>PDF</h2><ul><li><a href="https://www.adobe.com/acrobat.html">Adobe Acrobat DC</a> (paid)</li><li><a href="https://www.bluebeam.com/">Bluebeam Revu</a> (paid)<ul><li>Faster to load big files</li><li>Toolkit for quantity surveying</li><li>Layers for Markups and visibility control</li><li>Spaces for zoning</li><li>Export Markups List to Excel</li></ul></li><li><a href="https://tabula.technology/">Tabula</a><ul><li>Extract Tables from PDF</li><li>no OCR</li><li>If image based PDF<ul><li>In Adobe Acrobat DC, export to word</li><li>Word to PDF</li><li>Use Tabula to extract tables</li></ul></li></ul></li></ul><h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><ul><li><a href="https://sandboxie-plus.com/">Sandboxie Plus</a><ul><li>Isolate installations</li></ul></li><li><a href="https://deskpins.en.softonic.com/?utm_source=SEM&utm_medium=paid&utm_campaign=EN_UK_DSA&gclid=CjwKCAjwo8-SBhAlEiwAopc9W7lP_mWzDToEXVM-e5EW_ChIrwKwaBTx4JPv1hVGRNXbTHCwRpFFChoCK2EQAvD_BwE">DeskPins</a><ul><li>Pin windows on the top</li></ul></li><li><a href="https://www.internetdownloadmanager.com/">Internet Download Manager</a> (paid)</li></ul>]]></content>
+    
+    
+    <summary type="html">Recommendations of softwares, most are free to use.</summary>
+    
+    
+    
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="Software" scheme="http://example.com/tags/Software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Outlook Tips</title>
+    <link href="http://example.com/2022/04/11/Tools/Outlook-Tips/"/>
+    <id>http://example.com/2022/04/11/Tools/Outlook-Tips/</id>
+    <published>2022-04-11T14:51:20.000Z</published>
+    <updated>2022-04-11T16:12:26.048Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Overquota-warning"><a href="#Overquota-warning" class="headerlink" title="Overquota warning"></a>Overquota warning</h2><ul><li>File - Tools - Clean Up Old Items</li><li>Name Archive file with period or date</li></ul><h2 id="Call-back-email"><a href="#Call-back-email" class="headerlink" title="Call back email"></a>Call back email</h2><ul><li>Email - Message - Actions - Recall this message - Delete unread copies of this message</li><li>Wait for successful or failed recall email notification</li></ul><h2 id="Set-signature"><a href="#Set-signature" class="headerlink" title="Set signature"></a>Set signature</h2><ul><li>New Email - Insert - Signature - Signatures - New</li></ul><h2 id="Set-contact-group"><a href="#Set-contact-group" class="headerlink" title="Set contact group"></a>Set contact group</h2><ul><li>Home - Address Book - Right Click - New Entries - New Contact Group</li></ul><h2 id="Request-receive-x2F-read-receipt"><a href="#Request-receive-x2F-read-receipt" class="headerlink" title="Request receive&#x2F;read receipt"></a>Request receive&#x2F;read receipt</h2><ul><li>New email - Options - Tracking- Request receive&#x2F;read receipt</li></ul><h2 id="Schedule-sending"><a href="#Schedule-sending" class="headerlink" title="Schedule sending"></a>Schedule sending</h2><ul><li>New email - Options - More options - Message options - Delivery options - Do not deliver before</li></ul>]]></content>
+    
+    
+    <summary type="html">Useful functions of Outlook.</summary>
+    
+    
+    
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="Email" scheme="http://example.com/tags/Email/"/>
+    
+    <category term="Outlook" scheme="http://example.com/tags/Outlook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Blog with Hexo and Github Step by Step</title>
+    <link href="http://example.com/2022/04/10/Tools/Blog-with-Hexo-and-Github-step-by-step/"/>
+    <id>http://example.com/2022/04/10/Tools/Blog-with-Hexo-and-Github-step-by-step/</id>
+    <published>2022-04-10T04:42:17.000Z</published>
+    <updated>2022-05-21T18:32:27.408Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Download-Node-js-and-Git"><a href="#Download-Node-js-and-Git" class="headerlink" title="Download Node.js and Git"></a>Download Node.js and Git</h2><p>Download and install <a href="https://nodejs.org/en/">Node.js</a>.<br>Download and install <a href="https://git-scm.com/downloads">Git</a>.<br>Open Powershell or CMD.<br>Check if downloads are successful:</p><pre><code>node -vnpm -vgit --version</code></pre><h2 id="Download-Hexo"><a href="#Download-Hexo" class="headerlink" title="Download Hexo"></a>Download Hexo</h2><p> Download Hexo:</p><pre><code>npm install hexo-cli -g</code></pre><p>Check if download is successful</p><pre><code>hexo -v</code></pre><p>Optional: install code editor (VS Code, NotePad++, etc.)</p><h2 id="Set-up-Github"><a href="#Set-up-Github" class="headerlink" title="Set up Github"></a>Set up Github</h2><h3 id="Set-up-Github-repository"><a href="#Set-up-Github-repository" class="headerlink" title="Set up Github repository"></a>Set up Github repository</h3><p>Create new repository for your blog.<br>Repository name: <strong>[github_user_name].github.io</strong><br>Set repository as <strong>Public</strong><br>Create brach <strong>main</strong> for publishing your blog.</p><h3 id="Set-up-Github-SSH"><a href="#Set-up-Github-SSH" class="headerlink" title="Set up Github SSH"></a>Set up Github SSH</h3><p>Generate SSH in Git Bash:</p><pre><code>$ ssh-keygen -t rsa -C &quot;register.email@github.com&quot;</code></pre><p>Copy SSH from <strong>id_rsa.pub</strong> at <strong>C:\Users\[user_name]\.ssh</strong><br>Github setting - SSH and GPG keys - SSH keys - Add new.<br>Input Title for SSH key, and paste SSH.<br>Check if successful:</p><pre><code>$ ssh -T register.email@github.com</code></pre><h2 id="Set-up-Hexo"><a href="#Set-up-Hexo" class="headerlink" title="Set up Hexo"></a>Set up Hexo</h2><p>Create new project folder in Git Bash:</p><pre><code>$ hexo init &lt;folder&gt;  $ cd &lt;folder&gt;  $ npm install+</code></pre><p>Open <strong>_config.yml</strong> to change website settings: <a href="https://hexo.io/docs/configuration">How to set up configuration</a><br>Default theme is Landscape, see <a href="http://localhost:4000/">Apply theme</a> to change.<br>Apply changes to Hexo in Git Bash:</p><pre><code>$ hexo clean$ hexo g</code></pre><p>Check your website demo on local server <a href="http://localhost:4000/">http://localhost:4000</a>:</p><pre><code>$ hexo s</code></pre><p>Ctrl + C to exit local server</p><h2 id="Generate-New-Post"><a href="#Generate-New-Post" class="headerlink" title="Generate New Post"></a>Generate New Post</h2><pre><code>$ hexo new [post_name]</code></pre><h2 id="Deploy-to-Github"><a href="#Deploy-to-Github" class="headerlink" title="Deploy to Github"></a>Deploy to Github</h2><p>Install deploy tool:</p><pre><code>$ npm install hexo-deployer-heroku --save</code></pre><p>Open <strong>_config.yml</strong> to change delpoy settings: </p><pre><code>deploy:    type: git    repo: https://github.com/[user_name]/[user_name].github.io.git    branch: main</code></pre><p>Deploy your website&#x2F;changes to Github</p><pre><code>$ hexo d</code></pre><p>View your staic website from: <strong>https:&#x2F;&#x2F;[user_name].github.io&#x2F;</strong></p>]]></content>
+    
+    
+    <summary type="html">Tutorial for people with no coding knowledge to build free personal blog with ease.</summary>
+    
+    
+    
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
