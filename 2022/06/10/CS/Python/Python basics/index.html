@@ -1,0 +1,1320 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Python Basics | Zoe's Blog</title><meta name="keywords" content="Python"><meta name="author" content="Zoe T"><meta name="copyright" content="Zoe T"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Setup Python Editor: Atom Try not to use Integrated Development Environment (IDE) Atom: enter the path for a new file filename.py     Create directory  Features of Python Interpreted language Source c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python Basics">
+<meta property="og:url" content="http://example.com/2022/06/10/CS/Python/Python%20basics/index.html">
+<meta property="og:site_name" content="Zoe&#39;s Blog">
+<meta property="og:description" content="Setup Python Editor: Atom Try not to use Integrated Development Environment (IDE) Atom: enter the path for a new file filename.py     Create directory  Features of Python Interpreted language Source c">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<meta property="article:published_time" content="2022-06-10T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-04-30T14:21:41.841Z">
+<meta property="article:author" content="Zoe T">
+<meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/06/10/CS/Python/Python%20basics/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: 'copy.success',
+    error: 'copy.error',
+    noSupport: 'copy.noSupport'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'date_suffix.just',
+    min: 'date_suffix.min',
+    hour: 'date_suffix.hour',
+    day: 'date_suffix.day',
+    month: 'date_suffix.month'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Python Basics',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-04-30 14:21:41'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Zoe's Blog" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">aside.articles</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">aside.tags</div><div class="length-num">32</div></a><a href="/categories/"><div class="headline">aside.categories</div><div class="length-num">16</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Zoe's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Python Basics</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">post.created</span><time class="post-meta-date-created" datetime="2022-06-10T00:00:00.000Z" title="post.created 2022-06-10 00:00:00">2022-06-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">post.updated</span><time class="post-meta-date-updated" datetime="2023-04-30T14:21:41.841Z" title="post.updated 2023-04-30 14:21:41">2023-04-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/CS/">CS</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Python Basics"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">post.page_pv:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="Setup"><a href="#Setup" class="headerlink" title="Setup"></a>Setup</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.python.org/">Python</a></li>
+<li>Editor: <a target="_blank" rel="noopener" href="https://atom.io/">Atom</a><ul>
+<li>Try not to use Integrated Development Environment (IDE)</li>
+<li>Atom: enter the path for a new file<ul>
+<li>filename.py</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Create directory</li>
+</ul>
+<h2 id="Features-of-Python"><a href="#Features-of-Python" class="headerlink" title="Features of Python"></a>Features of Python</h2><ul>
+<li>Interpreted language<ul>
+<li>Source code not directly translated by the target machine</li>
+</ul>
+</li>
+<li>Compact and readable<ul>
+<li>High-level data type</li>
+<li>Statement grouping by indentation</li>
+<li>No variable or argument declarations necessary</li>
+</ul>
+</li>
+<li>Extensible</li>
+</ul>
+<h2 id="Using-Python-interpreter"><a href="#Using-Python-interpreter" class="headerlink" title="Using Python interpreter"></a>Using Python interpreter</h2><h3 id="Invoking-interpreter"><a href="#Invoking-interpreter" class="headerlink" title="Invoking interpreter"></a>Invoking interpreter</h3><ul>
+<li><code>python</code> command in shell</li>
+<li>Exit: <code>Ctrl + Z</code> or <code>quit()</code></li>
+<li>or <code>python -c <i>command</i> [arg] ...</code> to execute the statement in command</li>
+<li><code>python -m <i>module</i> [arg] ...</code> to execute the source file for module</li>
+<li><code>-i</code> before script to run script and enter interactive mode afterwards</li>
+</ul>
+<h3 id="Argument-passing"><a href="#Argument-passing" class="headerlink" title="Argument passing"></a>Argument passing</h3><ul>
+<li>Interpreter turn the scripte name and additional arguments into a list of strings, and assign to <code>argv</code> variable in <code>sys</code> module</li>
+<li><code>import sys</code> in script to use <code>argv</code> variable</li>
+<li>Length of the list is at least one<ul>
+<li><code>sys.argv[0]</code> is empty string, if no script and no arguments are given</li>
+<li><code>sys.argv[0]</code> is set to <code>-</code> (standard input), if script name is given as <code>-</code></li>
+<li><code>sys.argv[0]</code> is set to <code>-c</code>, if <code>-c</code> commant is used</li>
+<li><code>sys.argv[0]</code> is set to the full name of the module, if <code>-m</code> module is used</li>
+</ul>
+</li>
+<li>Options after <code>-c command</code> or <code>-m module</code> left in <code>sys.argv</code> for the command or module to handle, not by interpreter’s option processing</li>
+</ul>
+<h3 id="Interactive-mode"><a href="#Interactive-mode" class="headerlink" title="Interactive mode"></a>Interactive mode</h3><ul>
+<li><code>&gt;&gt;&gt;</code> primary prompt for the next command</li>
+<li><code>...</code> secondary prompt for continuation lines</li>
+</ul>
+<h3 id="Interpreter-and-environment"><a href="#Interpreter-and-environment" class="headerlink" title="Interpreter and environment"></a>Interpreter and environment</h3><ul>
+<li>Defualt encode in UTF-8</li>
+<li>Declare an encoding other than default, at first line:<ul>
+<li><code>-*- coding: <i>encoding</i> -*-</code></li>
+<li><code><i>encoding</i></code> is <a target="_blank" rel="noopener" href="https://docs.python.org/3/library/codecs.html#module-codecs">codec</a> registry and base classes</li>
+</ul>
+</li>
+</ul>
+<h2 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h2><h3 id="Comment"><a href="#Comment" class="headerlink" title="Comment"></a>Comment</h3><ul>
+<li><code>#</code> for single line</li>
+<li><code>&#39;&#39;&#39; ... &#39;&#39;&#39;</code> for multiple lines</li>
+</ul>
+<h3 id="Variable"><a href="#Variable" class="headerlink" title="Variable"></a>Variable</h3><ul>
+<li>Variable casting<ul>
+<li><code>str()</code></li>
+<li><code>int()</code></li>
+<li><code>float()</code></li>
+</ul>
+</li>
+<li>Variable name<ul>
+<li>Case sensitive</li>
+<li>Naming format<ul>
+<li>Camel case <code>myVariableName</code></li>
+<li>Pascal case <code>MyVariableName</code></li>
+<li>Snake case <code>my_variable_name</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Assign value to variables<ul>
+<li><code>x, y = 3, &quot;test&quot;</code></li>
+<li><code>x = y = &quot;test&quot;</code></li>
+<li>Unpack a collection of a value in list or tuple</li>
+</ul>
+</li>
+<li>Global and local variable<ul>
+<li>Global variable<ul>
+<li>Created outside a function</li>
+<li><code>global</code> keyword, created inside a function</li>
+</ul>
+</li>
+<li>Local variable<ul>
+<li>Created inside a function</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Assignment operator<ul>
+<li><code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>, <code>%=</code>, <code>//=</code>, <code>**=</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="print-function"><a href="#print-function" class="headerlink" title="print() function"></a><code>print()</code> function</h3><ul>
+<li><code>print(&#39;Hello world.\nI&#39;m back.&#39;)</code></li>
+<li><code>print(&#39;8&#39; + &#39;+ 8 =&#39;, 8 + 8)</code></li>
+<li><code>print(<i>variable</i>)</code></li>
+<li>Add <code>r</code> to use raw string instead of interpreting special characters by <code>\</code><ul>
+<li><code>print(&#39;C:\some\location&#39;)</code></li>
+</ul>
+</li>
+<li>Multiple lines by <code>&#39;&#39;&#39; ... &#39;&#39;&#39;</code> or <code>&quot;&quot;&quot; ... &quot;&quot;&quot;</code></li>
+</ul>
+<h3 id="Data-type"><a href="#Data-type" class="headerlink" title="Data type"></a>Data type</h3><ul>
+<li>Text type: <code>str</code></li>
+<li>Numeric type: <code>int</code>, <code>float</code>, <code>complex</code></li>
+<li>Sequence type: <code>list</code>, <code>tuple</code>, <code>range</code></li>
+<li>Mapping type: <code>dict</code></li>
+<li>Set type: <code>set</code>, <code>frozenset</code></li>
+<li>Boolean type: <code>bool</code></li>
+<li>Binary type: <code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></li>
+<li>None type: <code>NoneType</code></li>
+<li><code>type()</code> to get data type</li>
+</ul>
+<h4 id="Number"><a href="#Number" class="headerlink" title="Number"></a>Number</h4><ul>
+<li>Arithmetic operator<ul>
+<li><code>+</code>, <code>-</code>, <code>*</code>, <code>/</code></li>
+<li><code>//</code> return integer for floor divisoin discarding any fractional result</li>
+<li><code>%</code> for reminder</li>
+<li><code>**</code> for powers</li>
+</ul>
+</li>
+<li>Numeric type<ul>
+<li><code>int</code></li>
+<li><code>float</code>: division always return floating point nunmber</li>
+<li><code>complex</code>: <code>j</code> for imaginary part of complex number</li>
+</ul>
+</li>
+<li><code>_</code><ul>
+<li>In interactive mode, the last printed expression is assigned to the variable <code>_</code></li>
+</ul>
+</li>
+<li>Random number<ul>
+<li><code>import random</code> - built-in module</li>
+<li><code>random.randrage(1, 10)</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="String"><a href="#String" class="headerlink" title="String"></a>String</h4><ul>
+<li>In single or double quotes <code>`...`</code> or <code>"..."</code></li>
+<li>Multiline string <code>&quot;&quot;&quot;...&quot;&quot;&quot;</code></li>
+<li>Escape special character with balckslash<ul>
+<li><code>\&#39;</code> –&gt; <code>&#39;</code></li>
+<li><code>\\</code> –&gt; <code>\</code></li>
+<li><code>\n</code> –&gt; new line</li>
+<li><code>\r</code> –&gt; carriage return</li>
+<li><code>\t</code> –&gt; tab</li>
+<li><code>\b</code> –&gt; backspace</li>
+</ul>
+</li>
+<li>Concatenation<ul>
+<li>Concatenate string with <code>+</code>, repeat with <code>*</code><ul>
+<li><code>3 * &#39;m&#39; + &#39;os&#39;</code> –&gt; <code>&quot;mmmos&quot;</code></li>
+</ul>
+</li>
+<li>Auto concatenate for two or more string literals enclosed between quotes<ul>
+<li><code>&#39;py&#39; &#39;th&#39; &#39;on&#39;</code> –&gt; <code>&quot;python&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Index and slice<ul>
+<li>String is array</li>
+<li>First character having index 0</li>
+<li>Indices can be negative, counting from the right from -1<ul>
+<li><code>&#39;python&#39;[1]</code> –&gt; <code>&quot;y&quot;</code>; <code>&#39;python&#39;[-1]</code> –&gt; <code>&quot;n&quot;</code></li>
+<li><code>&#39;python&#39;[0:2]</code> –&gt; <code>&quot;py&quot;</code> # include position 0, exclude position 2</li>
+<li><code>&#39;python&#39;[:2] + &#39;python&#39;[2:]</code> –&gt; <code>&quot;python&quot;</code></li>
+<li><code>&#39;python&#39;[:]</code> –&gt; <code>&quot;python&quot;</code></li>
+<li><code>&#39;python&#39;[0:5:2]</code> –&gt; <code>&quot;pto&quot;</code> # at interval of 2</li>
+<li><code>&#39;python&#39;[::2]</code> –&gt; <code>&quot;pto&quot;</code> # <code>::</code> for whole string</li>
+<li><code>&#39;python&#39;[::-1]</code> –&gt; <code>&quot;nohtyp&quot;</code> # negative interval to reverse string</li>
+</ul>
+</li>
+<li>Out of range index<ul>
+<li>Error for get the character of index</li>
+<li>Ok for slicing</li>
+</ul>
+</li>
+<li>String is immutable, cannot assign value to an indexed position</li>
+<li>Loop through a string<ul>
+<li><code>for x in &quot;banana&quot;: print(x)</code></li>
+</ul>
+</li>
+<li>Check if characters in string <code>in</code> &amp; <code>not in</code> (membership operator)<ul>
+<li><code>&quot;ba&quot; in &quot;banana&quot;</code> –&gt; <code>True</code></li>
+<li><code>&quot;ya&quot; not in &quot;banana&quot;</code> –&gt; <code>True</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>len()</code>: return length of a string</li>
+<li><a target="_blank" rel="noopener" href="https://docs.python.org/3/library/stdtypes.html#string-methods">String method</a><ul>
+<li>Case<ul>
+<li><code>upper()</code> &amp; <code>lower()</code> &amp; <code>capitalize()</code> &amp; <code>capwords()</code></li>
+</ul>
+</li>
+<li>Remove whitespace<ul>
+<li><code>strip()</code></li>
+</ul>
+</li>
+<li>Replace character<ul>
+<li><code>&quot;abcd&quot;.replace(&quot;ab&quot;, &quot;cd&quot;)</code> –&gt; <code>&quot;cdcd&quot;</code></li>
+</ul>
+</li>
+<li>Split<ul>
+<li><code>&quot;ad cd&quot;.split(&quot; &quot;)</code> –&gt; <code>[&quot;ab&quot;, &quot;cd&quot;]</code></li>
+</ul>
+</li>
+<li>Join<ul>
+<li><code>join()</code></li>
+</ul>
+</li>
+<li>Count<ul>
+<li><code>count()</code></li>
+</ul>
+</li>
+<li>End with<ul>
+<li><code>endswith()</code></li>
+</ul>
+</li>
+<li>Find position<ul>
+<li><code>find()</code> &amp; <code>index()</code>: return first position</li>
+<li><code>rfind()</code> &amp; <code>rindex()</code>: return last position</li>
+</ul>
+</li>
+<li>Check type &amp; format<ul>
+<li><code>isalnum()</code>: if all are alphanumeric, alphabet or number</li>
+<li><code>isalpha()</code>: if all are alphabet</li>
+<li><code>isdecimal()</code>, <code>isnumeric()</code>, <code>isdigit()</code>, <code>isidentifier()</code></li>
+<li><code>islower()</code>, <code>istitle()</code>, <code>isupper()</code>, &#96;isspace()</li>
+</ul>
+</li>
+<li>Fill 0 at the beginning<ul>
+<li><code>&quot;90&quot;.zfill(4)</code> –&gt; <code>0090</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Bollean"><a href="#Bollean" class="headerlink" title="Bollean"></a>Bollean</h4><ul>
+<li><code>True</code> or <code>False</code></li>
+<li>Comparison operator: <code>&lt;</code>, <code>&gt;</code>, <code>==</code>, <code>!=</code>, <code>&lt;=</code>, <code>&gt;=</code></li>
+<li>Logical operator: <code>and</code>, <code>or</code>, <code>not</code> # <code>not</code> has higher priority<ul>
+<li>Sequence can be compared<ul>
+<li>Compare first two items, if equal then anther two</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Identity operator: <code>is</code>, <code>is not</code></li>
+<li>False values<ul>
+<li><code>bool(None)</code></li>
+<li><code>bool(0)</code></li>
+<li><code>bool(&quot;&quot;)</code></li>
+<li><code>bool(())</code>, <code>bool([])</code>, <code>bool(&#123;&#125;)</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="Control-flow-tools"><a href="#Control-flow-tools" class="headerlink" title="Control flow tools"></a>Control flow tools</h2><h3 id="if-statement"><a href="#if-statement" class="headerlink" title="if statement"></a><code>if</code> statement</h3><ul>
+<li><code>if ... elif ... (else ...)</code><ul>
+<li><code>elif</code> stands for else if</li>
+</ul>
+</li>
+<li>Short hand<ul>
+<li><code>if a == b: print (&quot;equal&quot;)</code></li>
+<li><code>print(&quot;A&quot;) if a &gt; b else print(&quot;&lt;&quot;) if a &lt;b else print(&quot;=&quot;)</code></li>
+</ul>
+</li>
+<li><code>pass</code> statement<ul>
+<li><code>if</code> statement cannot be empty, use <code>pass</code> if no content</li>
+</ul>
+</li>
+<li>Nested if</li>
+</ul>
+<h3 id="while-statement"><a href="#while-statement" class="headerlink" title="while statement"></a><code>while</code> statement</h3><ul>
+<li><code>break</code> statement to stop the loop</li>
+<li><code>continue</code> statement to stop the current iteration, and continue with the next iteration in loop</li>
+<li><code>else</code> statement</li>
+<li>Nest while</li>
+</ul>
+<h3 id="for-statement"><a href="#for-statement" class="headerlink" title="for statement"></a><code>for</code> statement</h3><ul>
+<li>For iterating over a sequence<ul>
+<li>List, tuple, set, dict, string</li>
+<li><code>for x in &quot;test&quot;: print(x)</code></li>
+</ul>
+</li>
+<li><code>break</code> statement</li>
+<li><code>pass</code> statement</li>
+<li><code>continue</code> statement</li>
+<li><code>else</code> statement</li>
+<li><code>range()</code> function<ul>
+<li><code>range(start, end, increment)</code></li>
+<li>Return a sequance of number</li>
+<li>Starting from 0 by default, increment by 1 by default</li>
+<li>Include left, exclude right</li>
+<li><code>for x in range(0, 10, 3): print(x)</code> –&gt; <code>4</code></li>
+</ul>
+</li>
+<li>Nested for</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># Modify a collection by iterating</span><br><span class="line">users = &#123;&#x27;A&#x27;: &#x27;active&#x27;, &#x27;B&#x27;: &#x27;active&#x27;, &#x27;C&#x27;: &#x27;inactive&#x27;&#125;</span><br><span class="line"></span><br><span class="line"># Strategy: iterate over a copy</span><br><span class="line"># items() return dict pairs in list</span><br><span class="line">for user, status in users.copy()items():</span><br><span class="line">    if status == &#x27;inactive&#x27;:</span><br><span class="line">        del users[user]</span><br><span class="line"></span><br><span class="line"># Strategy: create a new collection</span><br><span class="line">active.users = &#123;&#125;</span><br><span class="line">for user, status in users.items():</span><br><span class="line">    if status == &#x27;active&#x27;:</span><br><span class="line">        active.users[user] = status</span><br></pre></td></tr></table></figure>
+
+<h3 id="match-statement"><a href="#match-statement" class="headerlink" title="match statement"></a><code>match</code> statement</h3><ul>
+<li><p>Compare value to successive patterns given as case blocks</p>
+</li>
+<li><p>Can unpack collections, patterns can bind variables</p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#point is an (x, y) tuple</span><br><span class="line">match point:</span><br><span class="line">    case (0, 0):</span><br><span class="line">        return &quot;Origin&quot;</span><br><span class="line">    case (x, 0) | (0, y):           # &#x27;|&#x27; for or</span><br><span class="line">        return &quot;On axis&quot;</span><br><span class="line">    case (x, y):</span><br><span class="line">        print(f&#x27;X = &#123;x&#125;, Y = &#123;y&#125;&#x27;)</span><br><span class="line">    case _:                         # &#x27;_&#x27; as wildcard and never match</span><br><span class="line">        raise ValuyeError(&#x27;Not a point&#x27;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>match</code> and <code>class</code></p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Point</span><br><span class="line">    x: int</span><br><span class="line">    y: int</span><br><span class="line"></span><br><span class="line">def where_is(point):</span><br><span class="line">    match point:</span><br><span class="line">        case []:</span><br><span class="line">            print(&#x27;No point&#x27;)</span><br><span class="line">        case [Point(0, 0)]:</span><br><span class="line">            print(&#x27;origin)</span><br><span class="line">        case Point(x=0, y=y):</span><br><span class="line">            print(f&#x27;Y = &#123;y&#125;)</span><br><span class="line">        case [Point(0, y1), Point(0, y2)]:</span><br><span class="line">            print(f&#x27;Two on the Y axis at &#123;y1&#125;, &#123;y2&#125;&#x27;)</span><br><span class="line">        case Point(x, y) if x==y</span><br><span class="line">            print(f&#x27;Y = X at &#123;x&#125;&#x27;)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="Define-function"><a href="#Define-function" class="headerlink" title="Define function"></a>Define function</h3><ul>
+<li><p><code>def func(argument)</code></p>
+</li>
+<li><p>Variables defined in function is local</p>
+<ul>
+<li><p><code>global</code> for global variable</p>
+</li>
+<li><p><code>nonlocal</code> for variable of enclosing function</p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># nonlocal</span><br><span class="line">x = 0</span><br><span class="line">def outer():</span><br><span class="line">    x =1 </span><br><span class="line">    def inner()</span><br><span class="line">        nonlocal x</span><br><span class="line">        x = 2</span><br><span class="line">        print(&quot;inner:&quot;, x)</span><br><span class="line">    </span><br><span class="line">    inner()</span><br><span class="line">    print(&quot;outer:&quot;, x)</span><br><span class="line"></span><br><span class="line">outer()</span><br><span class="line">print(&quot;global:&quot;, x)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; inner: 2</span><br><span class="line">&gt;&gt;&gt; outer: 2</span><br><span class="line">&gt;&gt;&gt; global: 0</span><br></pre></td></tr></table></figure>
+
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># global</span><br><span class="line">x = 0</span><br><span class="line">def outer():</span><br><span class="line">    x =1 </span><br><span class="line">    def inner()</span><br><span class="line">        global x</span><br><span class="line">        x = 2</span><br><span class="line">        print(&quot;inner:&quot;, x)</span><br><span class="line">    </span><br><span class="line">    inner()</span><br><span class="line">    print(&quot;outer:&quot;, x)</span><br><span class="line"></span><br><span class="line">outer()</span><br><span class="line">print(&quot;global:&quot;, x)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; inner: 2</span><br><span class="line">&gt;&gt;&gt; outer: 1</span><br><span class="line">&gt;&gt;&gt; global: 2</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>Function definition associates the function name with function objects</p>
+<ul>
+<li><code>out = outer</code></li>
+<li>function <code>outer</code> can be accessed by function name <code>out</code></li>
+</ul>
+</li>
+<li><p>End of function</p>
+<ul>
+<li>Functions without a <code>return</code> statement return <code>None</code></li>
+<li><code>print</code> cannot replace <code>return</code></li>
+</ul>
+</li>
+<li><p>Method is a function belongs to an object named <code>obj.methodname</code></p>
+</li>
+<li><p>Argument</p>
+<ul>
+<li><p>Can be any data type</p>
+</li>
+<li><p>Arbitrary argument <code>*args</code></p>
+<ul>
+<li>Unknown numbers of arguments</li>
+<li>Function receive a tuple of arguments</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def func(*name):</span><br><span class="line">    print(&quot;Middle name is &quot; + name[2])</span><br><span class="line"></span><br><span class="line">func(&quot;Wang&quot;, &quot;Frank&quot;, &quot;Dazhi&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Keyword argument</p>
+<ul>
+<li>Send argument with <code>key = value</code> syntax</li>
+<li><code>func(last = &quot;Wang&quot;, middle, first = &quot;Dazhi&quot;)</code><ul>
+<li><code>middle</code> is required argument</li>
+<li><code>last</code> &amp; <code>first</code> is optional argument</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Arbitrary keyword argument <code>**args</code></p>
+<ul>
+<li>Function receive a dictionary of arguments</li>
+<li><code>def func(**name)</code></li>
+</ul>
+</li>
+<li><p>Default parameter value</p>
+<ul>
+<li>If call function without argument, use default value</li>
+<li>Evaluate only once, may pass to subsequent call</li>
+<li><code>def func(a, L = [])</code></li>
+</ul>
+</li>
+<li><p>Speical parameter</p>
+<ul>
+<li><code>def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):</code></li>
+<li><code>f(&quot;position 1&quot;, &quot;position 2&quot;, &quot;both ok&quot;, kwd1 = 1, lwd2 = 2)</code><ul>
+<li><code>pos</code> positional argument<ul>
+<li>Order matters, cannot be passed by keyword</li>
+</ul>
+</li>
+<li><code>kwd</code> keyword argument<ul>
+<li>Order not matters, passed by keyword</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pass by<ul>
+<li>Position only, before <code>/</code></li>
+<li>Position or keyword</li>
+<li>Keyword only, after <code>*</code></li>
+</ul>
+</li>
+<li>Names of positinoal-only parameters can be used in keyword argument without ambiguity  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def foo(name, /, **kwds):</span><br><span class="line">    return &#x27;name&#x27; in kwds</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code>pass</code> statement</p>
+</li>
+<li><p>Recursion</p>
+<ul>
+<li>Function can call itself</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">results = []</span><br><span class="line">def tri_recursion(k):</span><br><span class="line">    if(k &gt; 0):</span><br><span class="line">    result = k + tri_recursion(k - 1)</span><br><span class="line">    results.append(result)</span><br><span class="line">else:</span><br><span class="line">    result = 0</span><br><span class="line">return result</span><br><span class="line"></span><br><span class="line">tri_recursion(6)</span><br><span class="line">print(results)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; [1, 3, 6, 10, 15, 21]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Lambda expression</p>
+<ul>
+<li>A small anonymous function, can take any number of arguments, but only one expression</li>
+<li><code>x = lambda a , b : a * b + 10</code></li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">pairs = [(1, &#x27;one&#x27;), (2, &#x27;two&#x27;), (3, &#x27;three)]  # tuple in list</span><br><span class="line">pairs.sort(key = lamdba pair: pair[1])  # sort key is by the first index of pair</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; [(1, &#x27;one&#x27;), (3, &#x27;three&#x27;), (2, &#x27;two&#x27;)]</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Anonymous function inside another function</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">def myfunc(n):</span><br><span class="line">    return lambda a: a * n</span><br><span class="line"></span><br><span class="line">mydoubler = myfunc(2)</span><br><span class="line">mytripler = myfunc(3)</span><br><span class="line"></span><br><span class="line">print(mydoubler(11), mytripler(11))</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; 22 33</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Documentation strings</p>
+<ul>
+<li>First non-blank line after the first line of string determines the amount of indentation for the entire documentation string.</li>
+<li><code>__doc__</code> to print documentation string</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">def my_function():</span><br><span class="line">    &#x27;&#x27;&#x27; Short, concise summary of the object&#x27;s purpose.</span><br><span class="line">    &lt;BLANK&gt;</span><br><span class="line">    Description of the object. </span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    pass</span><br><span class="line"></span><br><span class="line">print(my_function.__doc__)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Function annotations</p>
+<ul>
+<li>Optional metadata information</li>
+<li>Store in <code>__annotations__</code> attribute of the function as a dictionary</li>
+<li>Return annotations defined by <code>-&gt;</code></li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">def f(ham: str, eggs: str = &#x27;eggs&#x27;) -&gt; str:</span><br><span class="line">    print(&quot;Annotations:&quot;, f.__annotations__)</span><br><span class="line">    print(&quot;Arguments:&quot;, ham, eggs)</span><br><span class="line">    return ham + &#x27; and &#x27; + eggs</span><br><span class="line"></span><br><span class="line">f(&#x27;spam&#x27;)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; Annotations: &#123;&#x27;ham&#x27;: &lt;class &#x27;str&#x27;&gt;, &#x27;eggs&#x27;: &lt;class &#x27;str&#x27;&gt;, &#x27;return&#x27;: &lt;class &#x27;str&#x27;&gt;&#125;</span><br><span class="line">Arguments: spam eggs</span><br><span class="line">&#x27;spam and eggs&#x27;</span><br><span class="line"></span><br><span class="line"># return value also annotated</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="Coding-style"><a href="#Coding-style" class="headerlink" title="Coding style"></a>Coding style</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://peps.python.org/pep-0008/">PEP8</a> - style guide for Python</li>
+<li>Do not mix tab and space</li>
+<li>Wrap lines so that they don’t exceed 79 characters</li>
+<li>Use blank lines to separate</li>
+<li>Put comments on a line of their own if possible</li>
+<li>Use docstrings</li>
+<li>Use spaces around operators and after comma</li>
+<li>Name consistently<ul>
+<li><code>UpperCamelCase</code></li>
+<li><code>lowercase_with_underscores</code></li>
+<li>Always use <code>self</code> as the name for the first method argument</li>
+</ul>
+</li>
+</ul>
+<h2 id="Data-structures"><a href="#Data-structures" class="headerlink" title="Data structures"></a>Data structures</h2><h3 id="Sequence"><a href="#Sequence" class="headerlink" title="Sequence"></a>Sequence</h3><h4 id="List"><a href="#List" class="headerlink" title="List"></a>List</h4><ul>
+<li><p>Might contain items of different types</p>
+</li>
+<li><p>Ordered, changeable, allow duplicate</p>
+<ul>
+<li><code>test = list((1, 2, 3))</code></li>
+<li><code>test = [1, 2, 3]</code></li>
+</ul>
+</li>
+<li><p>Index and slice</p>
+<ul>
+<li>Same as string<ul>
+<li>Left index included, right index excluded</li>
+</ul>
+</li>
+<li>Can assign new value to slice<ul>
+<li><code>test[:1] = []</code> –&gt; <code>[3]</code></li>
+<li><code>test[:] = []</code> –&gt; <code>[]</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code>in</code> &amp; <code>not in</code> to check membership</p>
+</li>
+<li><p><code>len()</code> return the number of items</p>
+</li>
+<li><p>Unpacking into variable</p>
+<ul>
+<li>Add <code>*</code> to a vairable, if the number of variables is less than value<ul>
+<li><code>(a, b, *c) = thisList</code></li>
+<li><code>c</code> is a list</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>List comprehension</p>
+<ul>
+<li><code>newlist = [<i>expression</i> for <i>item</i> in <i>iterable</i> if </i>condition == True]</code></li>
+<li><code>newlist = [x.upper() for x in oldlist if x != &quot;apple&quot;]</code></li>
+<li><code>[(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]</code></li>
+</ul>
+</li>
+<li><p>List method   </p>
+<ul>
+<li>Insert item<ul>
+<li><code>insert(index, insertContent)</code><ul>
+<li><code>test.insert(1, 0)</code> –&gt; <code>[1, 0, 2, 3]</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Append item at the end<ul>
+<li><code>append()</code>: append item<ul>
+<li><code>for x in list2: list1.append(x)</code></li>
+</ul>
+</li>
+<li><code>extend()</code>: append items from another iterable object: <ul>
+<li>Iterable object: list, typle, set, dictionary</li>
+<li><code>list1.extend(list2)</code></li>
+</ul>
+</li>
+<li><code>+</code>: <code>list3 = list1 + list2</code></li>
+<li><code>insert(i, x)</code>: <code>a.insert(len(a), x)</code></li>
+</ul>
+</li>
+<li>Remove item<ul>
+<li><code>remove(value)</code>: remove item</li>
+<li><code>pop(index)</code>: remove by sepcified index<ul>
+<li><code>pop()</code> –&gt; remove the last item</li>
+<li><code>popleft()</code> –&gt; remove from left</li>
+</ul>
+</li>
+<li><code>del</code> statement</li>
+</ul>
+</li>
+<li>Clear the list<ul>
+<li><code>clear()</code> –&gt; <code>[]</code></li>
+</ul>
+</li>
+<li>Sort<ul>
+<li><code>sort()</code>: sort alphanumerically</li>
+<li><code>sort(reverse  = True)</code>: sort reversely</li>
+<li><code>sort(key = myfunction)</code>: sort<ul>
+<li><code>myfunction</code> return a number used to sort the list</li>
+<li>Sort will be from the lowest to highest</li>
+<li>e.g. <code>def myfunction(n): return abs(n - 50)</code><ul>
+<li><code>abs()</code>: absolute value</li>
+</ul>
+</li>
+<li>e.g. <code>thislist = sort(key = str.lower)</code></li>
+</ul>
+</li>
+<li>Case sensitive: capital letters sorted before lower case letters</li>
+</ul>
+</li>
+<li>Reverse order of list<ul>
+<li><code>reverse()</code></li>
+</ul>
+</li>
+<li>Shallow Copy a list<ul>
+<li><code>copy()</code>: <code>list2 = list1.copy()</code></li>
+<li><code>list2 = list1[:]</code></li>
+</ul>
+</li>
+<li>Count spec value in list<ul>
+<li><code>count(value)</code></li>
+</ul>
+</li>
+<li>Find<ul>
+<li><code>index(item, start, end)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Shallow copy</p>
+<ul>
+<li>Should not modify mutable input data</li>
+<li>Should shallow copy <code>a = b[:]</code>instead of direct copy <code>a = b</code> (still referencing)</li>
+</ul>
+</li>
+</ul>
+<h4 id="Tuple"><a href="#Tuple" class="headerlink" title="Tuple"></a>Tuple</h4><ul>
+<li>Ordered, unchangeable, allow duplicate<ul>
+<li><code>thisTuple = &quot;a&quot;, &quot;b&quot;, &quot;c&quot;</code></li>
+<li><code>emptyTuple = ()</code></li>
+<li><code>thisTuple = tuple((&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, True))</code></li>
+<li><code>thisTuple = (&quot;a&quot;,)</code> #need to have a comma to create one-item tuple</li>
+</ul>
+</li>
+<li>Change tuple value by changing type to list</li>
+</ul>
+<h4 id="Set"><a href="#Set" class="headerlink" title="Set"></a>Set</h4><ul>
+<li>Unordered (unindexed), unchangeable (can remove or add items), no duplicate<ul>
+<li><code>myset = set((&quot;a&quot;, &quot;b&quot;, 33.1))</code></li>
+<li><code>myset = &#123;&quot;a&quot;, &quot;b&quot;, 33.1&#125;</code></li>
+<li>Duplicated item auto deleted&#x2F;merged</li>
+</ul>
+</li>
+<li>Set operations<ul>
+<li><code>set(&#39;aboc&#39;) - set(&#39;abc&#39;) = &#123;&#39;o&#39;&#125;</code></li>
+<li><code>set(&#39;ab&#39;) | set(&#39;ac&#39;) = &#123;&#39;a&#39;, &#39;b&#39;, &#39;c&#39;&#125;</code> # or</li>
+<li><code>set(&#39;ab&#39;) &amp; set(&#39;ac&#39;) = &#123;&#39;a&#39;&#125;</code> # both</li>
+<li><code>set(&#39;ab&#39;) &amp; set(&#39;ac&#39;) = &#123;&#39;b&#39;, &#39;c&#39;&#125;</code> # or but not both</li>
+</ul>
+</li>
+<li>Set method<ul>
+<li>Add item<ul>
+<li><code>add(value)</code></li>
+</ul>
+</li>
+<li>Add any iterable<ul>
+<li><code>update(mylist)</code></li>
+</ul>
+</li>
+<li>Remove<ul>
+<li><code>remove()</code>: if the item to remove not exist, <code>remove()</code> will raise ERROR</li>
+<li><code>discard()</code>: if the item to remove not exist, <code>discard()</code> will not raise ERROR</li>
+<li><code>pop()</code>: cannot spec index, can only remove the last item</li>
+<li><code>clear()</code>: empty set</li>
+<li><code>del()</code>: delete set completely</li>
+<li><code>del</code> statement</li>
+</ul>
+</li>
+<li>Join sets<ul>
+<li><code>union(set2)</code></li>
+<li><code>update(set2)</code></li>
+</ul>
+</li>
+<li>Duplicates and differences<ul>
+<li>Keep duplicates<ul>
+<li><code>set1.intersection_update(set2)</code>: keep duplicates and update <code>x</code></li>
+<li><code>set3 = set1.intersection(set2)</code>: return a new set of duplicates</li>
+</ul>
+</li>
+<li>Keep all but duplicates<ul>
+<li><code>set1.symmetric_difference_update(set2)</code></li>
+<li><code>set3 = set1.symmetric_difference(set2)</code></li>
+</ul>
+</li>
+<li>Items only exist in <code>set1</code> not <code>set2</code><ul>
+<li><code>set3 = set1.difference(set2)</code></li>
+</ul>
+</li>
+<li>Whether two sets have a intersection or not<ul>
+<li><code>isdisjoint()</code></li>
+</ul>
+</li>
+<li>Whether <code>set2</code> is subset(part of)&#x2F;superset(contain) <code>set1</code><ul>
+<li><code>set1.issubset(set2)</code></li>
+<li><code>set1.issuperset(set1)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Dictionary"><a href="#Dictionary" class="headerlink" title="Dictionary"></a>Dictionary</h4><ul>
+<li>Ordered, changeable, no duplicate<ul>
+<li>Store data in key:value pairs</li>
+<li>Any immutable object can be key</li>
+<li><code>thisdict = &#123;&quot;brand&quot;: &quot;Cola&quot;, &quot;year&quot;: 1998, &quot;color&quot;: [&quot;red, &quot;yellow&quot;]&#125;</code></li>
+<li><code>thisdict = dict([(&quot;brand&quot;, &quot;Cola&quot;), (&quot;year&quot;, 1988)])</code></li>
+<li><code>dict(year=1988, age=15)</code></li>
+<li><code>x: x**2 for x in (2, 4, 6)</code></li>
+</ul>
+</li>
+<li><code>list(dictionary)</code> returns a list of all keys</li>
+<li><code>in</code> &amp; <code>not in</code>: check if key exists</li>
+<li>Dictionary method<ul>
+<li>Get from dict<ul>
+<li>Get value<ul>
+<li><code>thisdict[&quot;owner&quot;] = &quot;John&quot;</code></li>
+<li><code>thisdict.get(&quot;owner&quot;)</code></li>
+<li><code>values()</code>: get list of all values</li>
+</ul>
+</li>
+<li>Get list of all keys<ul>
+<li><code>keys()</code></li>
+</ul>
+</li>
+<li>Get items<ul>
+<li><code>items()</code>: return each pair of item as tuple in a list</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Update item<ul>
+<li><code>update(&#123;&quot;year&quot;: 2020&#125;)</code>: must in key:value pair</li>
+</ul>
+</li>
+<li>Remove item<ul>
+<li><code>pop(&quot;year&quot;)</code></li>
+<li><code>del thisdict[&quot;year&quot;]</code></li>
+<li><code>clear()</code>: to empty dict</li>
+</ul>
+</li>
+<li>Copy<ul>
+<li>Copy cannot by <code>dict1 = dict2</code> - just a reference that changes auto following <code>dict1</code></li>
+<li><code>copy()</code></li>
+</ul>
+</li>
+<li>Set default value of key<ul>
+<li><code>setdefault(&quot;color&quot; : &quot;white&quot;)</code></li>
+<li>If the key not exists, inser the key with the specified value</li>
+</ul>
+</li>
+<li>Create dict by specified keys and value<ul>
+<li><code>dict.fromkeys(keys, value)</code></li>
+<li><code>thisdict = dict.fromkeys(x, y)</code><ul>
+<li>If value not specified: <code>None</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Nested dict<ul>
+<li>Dict can contain dict as item value</li>
+</ul>
+</li>
+</ul>
+<h3 id="Looping-techniques"><a href="#Looping-techniques" class="headerlink" title="Looping techniques"></a>Looping techniques</h3><blockquote>
+<p>Loop through a list</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">thislist = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]</span><br><span class="line">for x in thislist:</span><br><span class="line">    print(x)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>List comprehension loop</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">thislist = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]</span><br><span class="line">[print(x) for x in thislist]</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Loop through list index</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">thislist = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]</span><br><span class="line">for i in range(len(thislist)):</span><br><span class="line">    print(thislist[i])</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">thislist = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]</span><br><span class="line">i = 0</span><br><span class="line">while i &lt; len(thislist):</span><br><span class="line">    print(thislist[i])</span><br><span class="line">    i += 1</span><br></pre></td></tr></table></figure>
+
+<h2 id="Modules"><a href="#Modules" class="headerlink" title="Modules"></a>Modules</h2><ul>
+<li><p>A file containing Python difinitions and statements</p>
+<ul>
+<li><code>import module</code></li>
+<li><code>from module import itemname as itemname2</code></li>
+<li><code>from module import *</code></li>
+<li><code>modname.itemname</code></li>
+</ul>
+</li>
+<li><p>Only imported once per interpreter session</p>
+<ul>
+<li>Restart interpreter or <code>importlib.reload()</code></li>
+</ul>
+</li>
+<li><p>Run Python module</p>
+<ul>
+<li><code>python mod.py &lt;arguments&gt;</code></li>
+<li>Set <code>__name__</code> to <code>__main__</code><ul>
+<li>Adding at start: <code>if __name___ == &quot;__main__&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Module search path</p>
+<ul>
+<li>Search for built-in module listed in <code>sys.builtin_module_names</code></li>
+<li>Search for <code>module.py</code> in a list of directories given by <code>sys.path</code><ul>
+<li><code>sys.path</code> intialized from<ul>
+<li>Directory containing input script</li>
+<li><code>PYTHONPATH</code></li>
+<li>Installation-dependent default</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Compiled modules</p>
+<ul>
+<li>Python caches the compiled version of each moduile in the <code>__pycache__</code> directory under <code>module.version.pyc</code></li>
+</ul>
+</li>
+<li><p>Standard modules</p>
+<ul>
+<li>Some built into the interpreter</li>
+</ul>
+</li>
+<li><p><code>dir()</code> function</p>
+<ul>
+<li><code>dir()</code> finds out which names a module defines, return a sorted list of strings</li>
+</ul>
+</li>
+<li><p>Packages</p>
+<ul>
+<li>A way of structuring Python’s module namespace by using “dotted module names”</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">sound/                          Top-level package</span><br><span class="line">  __init__.py               Initialize the sound package</span><br><span class="line">  formats/                  Subpackage for file format conversions</span><br><span class="line">          __init__.py</span><br><span class="line">          wavread.py</span><br><span class="line">          wavwrite.py</span><br><span class="line">          aiffread.py</span><br><span class="line">          aiffwrite.py</span><br><span class="line">          auread.py</span><br><span class="line">          auwrite.py</span><br><span class="line">          ...</span><br><span class="line">  effects/                  Subpackage for sound effects</span><br><span class="line">          __init__.py</span><br><span class="line">          echo.py</span><br><span class="line">          surround.py</span><br><span class="line">          reverse.py</span><br><span class="line">          ...</span><br><span class="line">  filters/                  Subpackage for filters</span><br><span class="line">          __init__.py</span><br><span class="line">          equalizer.py</span><br><span class="line">          vocoder.py</span><br><span class="line">          karaoke.py</span><br><span class="line">          ...</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code> __init__.py</code> to make Python treat directories containing the file as packages</li>
+<li>Import individual modules from package<ul>
+<li><code>import sound.effects.echo</code></li>
+<li><code>from sound.effects import echo</code></li>
+<li>Imported item can be submodule or package or name defined in the package</li>
+</ul>
+</li>
+<li>Importing * from package<ul>
+<li>First need to provide an explicit index of the package<ul>
+<li>Defined list of module names <code>__all__</code></li>
+<li>Imported when <code>*</code> encountered</li>
+<li>Maintained and updated by package author</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Intra-package references<ul>
+<li>Realtive imports<ul>
+<li><code>from . import echo</code></li>
+<li><code>from ..filters import equalizer</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Input-and-output"><a href="#Input-and-output" class="headerlink" title="Input and output"></a>Input and output</h2><ul>
+<li><p>Output format</p>
+<ul>
+<li>Formatted string literal (f-string)<ul>
+<li>Prefixed with <code>f</code>, replacement fields <code>&#123;&#125;</code><ul>
+<li><code>f'Hello, my name is &#123;<i>name</i>.lower()&#125;'</code></li>
+<li><code>f&quot;1 + (1 - 2) = &#123;1 + (1 - 2)&#125;&quot;</code></li>
+<li><code>f&#39;&#39;&#39;He\&#39;ll say &#123;&quot;I&#39;m Eric&quot;&#125;&#39;&#39;&#39;</code> –&gt; <code>&quot;He&#39;ll say I&#39;m Eric&quot;</code></li>
+</ul>
+</li>
+<li><code>=</code> can be added after expression, casues <code>repr()</code> by default<ul>
+<li><code>foo = &quot;bar&quot;</code></li>
+<li><code>f&quot;&#123; foo = &#125;&quot;</code> –&gt; &#96;” foo &#x3D; ‘bar’” </li>
+<li><code>f&#123;foo:5&#125;</code> –&gt; <code>&quot;bar  &quot;</code></li>
+<li>Before <code>:</code> to indicate position int he arg list</li>
+<li>After <code>:</code> to indicate min width of the field</li>
+</ul>
+</li>
+<li>Specify conversion<ul>
+<li><code>!s</code> calls <code>str()</code> on the result</li>
+<li><code>!r</code> calls <code>repr()</code> on the result</li>
+<li><code>!a</code> called <code>ascii()</code> on the result</li>
+</ul>
+</li>
+<li>Format specifier <code>:</code><ul>
+<li>Alignment<ul>
+<li><code>:&lt;</code> - left</li>
+<li><code>:&gt;</code> - right</li>
+<li><code>:^</code> - center</li>
+<li><code>:=</code> - place sign to the left most position</li>
+<li>Add int afterwards to spec available space for the value</li>
+</ul>
+</li>
+<li>Sign<ul>
+<li><code>:+</code> - show + sign</li>
+<li><code>:-</code> - show - sign only</li>
+<li><code>: </code> - use a space before positive number</li>
+</ul>
+</li>
+<li>Separator<ul>
+<li><code>:,</code> - comma as thousand separator</li>
+<li><code>:_</code> - underscre as thousand separator</li>
+</ul>
+</li>
+<li>Number format<ul>
+<li><code>:b</code> - binary format</li>
+<li><code>:c</code> - convert to unicode character</li>
+<li><code>:3d</code> - decimal format –&gt; <code>  5</code></li>
+<li><code>:e</code> - scientific format with lower case e</li>
+<li><code>:E</code> - scientific format with upper case E</li>
+<li><code>:.2f</code> - fix point number format –&gt; <code>5.00</code></li>
+<li><code>:o</code> - octal format</li>
+<li><code>:x</code> - hex format</li>
+<li><code>:.2%</code> - percentage format –&gt; <code>5.00%</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>str.format()</code><ul>
+<li><code>full_name = &quot;&#123;&#125; &#123;&#125;&quot;.format(first_name, last_name)</code></li>
+<li><code>print(&quot;&#123;1&#125; and &#123;0&#125; and &#123;0[other]:.2f&#125;&quot;).format(&quot;a&quot;, &quot;b&quot;, other = 3))</code> –&gt; <code>&quot;b and a and 3.00&quot;</code><ul>
+<li><code>[]</code> to access the key</li>
+</ul>
+</li>
+<li>Passing <code>table</code> dictionary by <code>**</code><ul>
+<li><code>print(&#39;Jack: &#123;Jack:d&#125;; Sjoerd: &#123;Sjoerd:d&#125;; Dcab: &#123;Dcab:d&#125;&#39;.format(**table))</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Old printf-style string formatting<ul>
+<li><code>%</code>: string formatting or interpolation operator</li>
+<li><code>%(language)s has %(number)03d quote types&#39; % &#123;&quot;language&quot;: &quot;python&quot;, &quot;number&quot;: 2&#125;</code> –&gt; <code>&quot;pyhon has 002 quote types&quot;</code><ul>
+<li><code>(language)</code>: mapping key, optional</li>
+<li><code>0</code>: conversion flag, optional<ul>
+<li><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220710235621.png" width="600" height=""></li>
+</ul>
+</li>
+<li><code>3</code>: minimum field width, optional</li>
+<li>Precision <code>.2</code>, optional</li>
+<li>Length modifier, optional</li>
+<li><code>d</code>: conversion type<ul>
+<li><img src="https://raw.githubusercontent.com/zoe-gif/images/master/20220711000041.png" width="600" height=""></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>str.rjust()</code><ul>
+<li>Padding string with spaces on the left</li>
+<li><code>str.ljust</code>, <code>str.center</code></li>
+</ul>
+</li>
+<li><code>str.zfill()</code><ul>
+<li>Pad a numeric string on the left with zeros</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Reading and writing files</p>
+<ul>
+<li><code>open(filename, mode, encoding=None)</code><ul>
+<li><code>r</code> to read only (defualt)</li>
+<li><code>w</code> to write only<ul>
+<li>Existing file with the same name will be erased</li>
+</ul>
+</li>
+<li><code>a</code> to open the file for appending at the end</li>
+<li><code>r+</code> to read and write</li>
+<li><code>b</code> to open in binary mode</li>
+</ul>
+</li>
+<li>Close file<ul>
+<li><code>with</code> to properly close file after finish<ul>
+<li><code>with open(&#39;workfile&#39;) as f: read_data = f.read()</code></li>
+</ul>
+</li>
+<li><code>f.close()</code> # not recommended</li>
+</ul>
+</li>
+<li>Method of file objects<ul>
+<li><code>read()</code><ul>
+<li>Read entire by default</li>
+<li><code>read(size)</code></li>
+</ul>
+</li>
+<li><code>readline()</code><ul>
+<li>Or <code>print line for line in f</code></li>
+<li><code>list(f)</code> or <code>f.readlines()</code> to read all lines</li>
+</ul>
+</li>
+<li><code>write(string)</code><ul>
+<li>Convert object to string or bytes<ul>
+<li><code>f.write(s)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>tell()</code><ul>
+<li>Tell the file object’s current position</li>
+</ul>
+</li>
+<li><code>seek(offset, whence)</code><ul>
+<li>To change the file object’s position</li>
+<li><code>whence</code> reference point<ul>
+<li><code>whence == 0</code> (default): beginning of the file</li>
+<li><code>whence == 1</code>: current file location</li>
+<li><code>whence == 2</code>: end of the file</li>
+<li>If text files, only refer to the beginning of the file allowed</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>json</code> to save structured data<ul>
+<li><code>json</code>: javascript object notation</li>
+<li>Serializing: take Python data hierarchies and convert to string</li>
+<li>Deserializing: reconstruct data from string</li>
+<li><code>json.dumps(object)</code> to view json string</li>
+<li><code>json.dump(object, text_file)</code> to serialize to text_file</li>
+<li><code>json.load(text_file)</code> to decode</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code>print()</code></p>
+<ul>
+<li><code>print(*objects, sep=&#39; &#39;, end=&#39;\n&#39;, file=sys.stdout, flush=False)</code></li>
+<li><code>*object</code>: objects to be printed</li>
+<li><code>sep = &#39;\n&#39;</code>: separator between printed objects</li>
+<li><code>end = &#39;@&#39;</code>: print <code>@</code> at the end</li>
+<li><code>file</code>: specify the output file (console by default)</li>
+<li><code>flush</code>: flush the stream&#x2F;file forcibly if set <code>True</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="Errors-and-exceptions"><a href="#Errors-and-exceptions" class="headerlink" title="Errors and exceptions"></a>Errors and exceptions</h2><ul>
+<li><p>Syntax errors</p>
+</li>
+<li><p>Exceptions</p>
+</li>
+<li><p>Handling exceptions</p>
+<ul>
+<li><code>try</code> &amp; <code>except</code></li>
+<li><code>except</code> can have multiple lines, order matters</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">while True:</span><br><span class="line">    try:</span><br><span class="line">        x = int(input(&quot;enter a number:&quot;))</span><br><span class="line">        break</span><br><span class="line">    except (ValueError, TypeError):</span><br><span class="line">        print(&quot;try again&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Raise exceptions</p>
+<ul>
+<li><code>raise</code> statement: force a speficied exception to occur</li>
+</ul>
+</li>
+<li><p>Exception chaining</p>
+<ul>
+<li>Optional <code>from</code> enables chaining exceptions</li>
+<li>Disabled by <code>from None</code></li>
+</ul>
+</li>
+<li><p>User-defined exceptions</p>
+</li>
+<li><p>Define clean-up actions</p>
+<ul>
+<li><code>finally</code> executes the last task before <code>try</code> completes</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">def divide(x, y):</span><br><span class="line">    try:</span><br><span class="line">        result = x / y</span><br><span class="line">    except ZeroDivisionError:</span><br><span class="line">        print(&quot;division by zero!&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;result is&quot;, result)</span><br><span class="line">    finally:</span><br><span class="line">        print(&quot;executing finally clause&quot;)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; divide(2, 1)</span><br><span class="line">result is 2.0</span><br><span class="line">executing finally clause</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; divide(2, 0)</span><br><span class="line">division by zero!</span><br><span class="line">executing finally clause</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; divide(&quot;2&quot;, &quot;1&quot;)</span><br><span class="line">executing finally clause</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">File &quot;&lt;stdin&gt;&quot;, line 3, in divide</span><br><span class="line">TypeError: unsupported operand type(s) for /: &#x27;str&#x27; and &#x27;str&#x27;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Predefined clean-up actions</p>
+<ul>
+<li><code>with</code></li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">with open(&quot;myfile.txt&quot;) as f:</span><br><span class="line">for line in f:</span><br><span class="line">    print(line, end=&quot;&quot;)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="Classes"><a href="#Classes" class="headerlink" title="Classes"></a>Classes</h2><ul>
+<li>Class<ul>
+<li>Class creates a new type of object</li>
+<li>Class instance can have attributes and methods</li>
+<li>Base class and derived class</li>
+</ul>
+</li>
+<li>Attribute<ul>
+<li><code>object.attribute</code></li>
+<li>Read-only or writable<ul>
+<li><code>del object.attribute</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Namespace<ul>
+<li>Mapping from names to objects</li>
+<li>Types<ul>
+<li>Built-in namespace<ul>
+<li>Created when Python intepreter starts up</li>
+<li>Never deleted</li>
+</ul>
+</li>
+<li>Global namespace<ul>
+<li>Created when module definition is read in</li>
+<li>Deleted until interpreter quits</li>
+</ul>
+</li>
+<li>Local namespace for a function<ul>
+<li>Created when function is called</li>
+<li>Deleted until function returns</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Scope<ul>
+<li>Textual region of a Python program where a namespace is directly accessible</li>
+<li>Types<ul>
+<li>Innermost scope<ul>
+<li>Searched first</li>
+<li>Contain local names</li>
+</ul>
+</li>
+<li>Scope of any enclosing functions<ul>
+<li>Searched from the nearest enclosing scope</li>
+<li>Contain non-local but also non-global names</li>
+</ul>
+</li>
+<li>Next-to-last scope<ul>
+<li>Contain the current modules’s global names</li>
+</ul>
+</li>
+<li>Outermost scope<ul>
+<li>Searched last</li>
+<li>Contain built-in names</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>global</code> and <code>non-local</code> statement<ul>
+<li><code>global</code>: variable lives in the global scope</li>
+<li><code>nonlocal</code>: variable lives in an enclosing scope</li>
+</ul>
+</li>
+</ul>
+<h2 id="Standard-library"><a href="#Standard-library" class="headerlink" title="Standard library"></a>Standard library</h2><h2 id="Virtual-environments-and-packages"><a href="#Virtual-environments-and-packages" class="headerlink" title="Virtual environments and packages"></a>Virtual environments and packages</h2><h2 id="Uncategorized"><a href="#Uncategorized" class="headerlink" title="Uncategorized"></a>Uncategorized</h2><ul>
+<li><code>eval()</code>: if the expression is legal python statement, it will be executed</li>
+<li><code>repr</code>()&#96;: return a string containing a printable representation of an object</li>
+<li><code>variable = input(&#39;enter the value&#39;)</code></li>
+<li><code>map(function, iterable)</code>: execute function for each item in iterable<ul>
+<li>Multiple variables: <code>map(function, list1, list2)</code></li>
+</ul>
+</li>
+<li><code>reversed()</code>: function of method <code>reverse</code></li>
+<li><code>sorted()</code>: function of method <code>sort</code></li>
+<li><code>min()</code>: return lowest value in an iterable</li>
+<li><code>sum()</code>: return sum of all in an iterable</li>
+<li><code>import math</code><ul>
+<li><code>math.sqrt()</code>: square root</li>
+</ul>
+</li>
+<li><code>bin()</code>: return binary value start with <code>0b</code></li>
+<li><code>zip(iterator1, iterator2, iterator ...)</code>: zip iterator together</li>
+<li><code>enumerate(iteratble, [start])</code>: return as an enumerate object<ul>
+<li><code>enumerate([&#39;a&#39;, &#39;b&#39;])</code> –&gt; <code>[(0, &#39;a&#39;), (1, &#39;b&#39;)]</code></li>
+</ul>
+</li>
+<li><code>vars()</code>: return a dictionary containing all local variables</li>
+<li><code>round(number, number of digits)</code>: round up</li>
+<li><code>p = p//1</code>: round down to integer</li>
+<li><code>re</code><ul>
+<li><a target="_blank" rel="noopener" href="https://docs.python.org/3/library/re.html">regular expression operations</a></li>
+<li><strong><strong><strong><strong><strong>to be read</strong></strong></strong></strong></strong>***</li>
+</ul>
+</li>
+<li><code>ord</code>: return the int that represents string</li>
+<li><code>enumerate(iterable, start=0)</code>: add counter to iterable and return</li>
+<li>Import alpha</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import string</span><br><span class="line">alphabet_lower = list(string.ascii_lowercase)</span><br><span class="line">alphabet_upper = list(string.ascii_uppercase)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>yield</code> keyword<ul>
+<li>Suspend a function’s execution and send a value back to the caller</li>
+</ul>
+</li>
+</ul>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Python/">Python</a></div><div class="post_share"></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> comment</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Zoe T</div><div class="author-info__description">Life is a struggle</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">aside.articles</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">aside.tags</div><div class="length-num">32</div></a><a href="/categories/"><div class="headline">aside.categories</div><div class="length-num">16</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:mmmosquitooo@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>aside.card_toc</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup"><span class="toc-number">1.</span> <span class="toc-text">Setup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Features-of-Python"><span class="toc-number">2.</span> <span class="toc-text">Features of Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Using-Python-interpreter"><span class="toc-number">3.</span> <span class="toc-text">Using Python interpreter</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Invoking-interpreter"><span class="toc-number">3.1.</span> <span class="toc-text">Invoking interpreter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Argument-passing"><span class="toc-number">3.2.</span> <span class="toc-text">Argument passing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Interactive-mode"><span class="toc-number">3.3.</span> <span class="toc-text">Interactive mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Interpreter-and-environment"><span class="toc-number">3.4.</span> <span class="toc-text">Interpreter and environment</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Basics"><span class="toc-number">4.</span> <span class="toc-text">Basics</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Comment"><span class="toc-number">4.1.</span> <span class="toc-text">Comment</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Variable"><span class="toc-number">4.2.</span> <span class="toc-text">Variable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#print-function"><span class="toc-number">4.3.</span> <span class="toc-text">print() function</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-type"><span class="toc-number">4.4.</span> <span class="toc-text">Data type</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Number"><span class="toc-number">4.4.1.</span> <span class="toc-text">Number</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#String"><span class="toc-number">4.4.2.</span> <span class="toc-text">String</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Bollean"><span class="toc-number">4.4.3.</span> <span class="toc-text">Bollean</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Control-flow-tools"><span class="toc-number">5.</span> <span class="toc-text">Control flow tools</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#if-statement"><span class="toc-number">5.1.</span> <span class="toc-text">if statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#while-statement"><span class="toc-number">5.2.</span> <span class="toc-text">while statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#for-statement"><span class="toc-number">5.3.</span> <span class="toc-text">for statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#match-statement"><span class="toc-number">5.4.</span> <span class="toc-text">match statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Define-function"><span class="toc-number">5.5.</span> <span class="toc-text">Define function</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Coding-style"><span class="toc-number">5.6.</span> <span class="toc-text">Coding style</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Data-structures"><span class="toc-number">6.</span> <span class="toc-text">Data structures</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Sequence"><span class="toc-number">6.1.</span> <span class="toc-text">Sequence</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#List"><span class="toc-number">6.1.1.</span> <span class="toc-text">List</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tuple"><span class="toc-number">6.1.2.</span> <span class="toc-text">Tuple</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Set"><span class="toc-number">6.1.3.</span> <span class="toc-text">Set</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Dictionary"><span class="toc-number">6.1.4.</span> <span class="toc-text">Dictionary</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Looping-techniques"><span class="toc-number">6.2.</span> <span class="toc-text">Looping techniques</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Modules"><span class="toc-number">7.</span> <span class="toc-text">Modules</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Input-and-output"><span class="toc-number">8.</span> <span class="toc-text">Input and output</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Errors-and-exceptions"><span class="toc-number">9.</span> <span class="toc-text">Errors and exceptions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Classes"><span class="toc-number">10.</span> <span class="toc-text">Classes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Standard-library"><span class="toc-number">11.</span> <span class="toc-text">Standard library</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Virtual-environments-and-packages"><span class="toc-number">12.</span> <span class="toc-text">Virtual environments and packages</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Uncategorized"><span class="toc-number">13.</span> <span class="toc-text">Uncategorized</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text">All information provided is for learning purposes only.</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="rightside.readmode_title"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="rightside.night_mode_title"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="rightside.aside"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="rightside.setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="rightside.toc"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="rightside.scroll_to_comment"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="rightside.back_to_top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5/instantpage.min.js" type="module"></script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.css"><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = new Waline(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://blogwaline-dcqykqfks-zoe-gif.vercel.app/',
+      path: location.pathname,
+      visitor: true,
+      dark: 'html[data-theme="dark"]'
+    }, null))
+  }
+
+  if (typeof Waline === 'function') initWaline()
+  else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(initWaline)
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
