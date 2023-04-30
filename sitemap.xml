@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(Without%20Quantity)%202006/</loc>
     
     <lastmod>2023-04-30</lastmod>
@@ -264,15 +273,6 @@
   
   <url>
     <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
     
     <lastmod>2023-04-30</lastmod>
     
