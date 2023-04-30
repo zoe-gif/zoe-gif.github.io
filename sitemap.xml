@@ -11,105 +11,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/10/Tools/Useful%20softwares/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/04/10/Tools/Website/Blog%20with%20Hexo%20and%20Github/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/04/10/Tools/Website/Image%20Hosting%20with%20Github%20&%20PicGo/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/04/10/Tools/Website/MD%20format%20tips/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/link/index.html</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/index.html</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/CS/VBA%20application/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/CS/VBA%20basics/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/08/Math/Differential%20calculus/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/08/Math/Statistics%20and%20probability/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2022/06/10/Other/Glossary%20and%20terms/</loc>
     
     <lastmod>2023-04-30</lastmod>
@@ -119,16 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/06/10/CS/Python/Python%20basics/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/16/CS/Python/Python%20exercise/</loc>
+    <loc>http://example.com/2022/04/10/Tools/Useful%20softwares/</loc>
     
     <lastmod>2023-04-30</lastmod>
     
@@ -272,6 +164,123 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/04/10/Tools/Website/Blog%20with%20Hexo%20and%20Github/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/04/10/Tools/Website/Image%20Hosting%20with%20Github%20&%20PicGo/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/04/10/Tools/Website/MD%20format%20tips/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/index.html</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/link/index.html</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/index.html</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/28/CS/CMD/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/CS/VBA%20application/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/CS/VBA%20basics/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/08/Math/Differential%20calculus/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/08/Math/Statistics%20and%20probability/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/CS/Python/Python%20basics/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/16/CS/Python/Python%20exercise/</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Busbar%20system/</loc>
     
     <lastmod>2023-04-30</lastmod>
@@ -345,15 +354,6 @@
   
   <url>
     <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Switchgear/</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/28/CS/CMD/</loc>
     
     <lastmod>2023-04-30</lastmod>
     
@@ -639,21 +639,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/3D/</loc>
-    <lastmod>2023-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/QS/APC/</loc>
-    <lastmod>2023-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/Tools/Office/</loc>
     <lastmod>2023-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -667,14 +653,35 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/Website/</loc>
+    <loc>http://example.com/categories/QS/Measurement-Billing/</loc>
     <lastmod>2023-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/QS/Measurement-Billing/</loc>
+    <loc>http://example.com/categories/Tools/2D/</loc>
+    <lastmod>2023-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Tools/3D/</loc>
+    <lastmod>2023-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Tools/Office/</loc>
+    <lastmod>2023-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Tools/Website/</loc>
     <lastmod>2023-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -689,13 +696,6 @@
   
   <url>
     <loc>http://example.com/categories/Construction/</loc>
-    <lastmod>2023-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/Tools/2D/</loc>
     <lastmod>2023-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
