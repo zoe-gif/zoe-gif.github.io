@@ -11,33 +11,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
-    
-    <lastmod>2023-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(Without%20Quantity)%202006/</loc>
-    
-    <lastmod>2023-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/05/15/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/</loc>
-    
-    <lastmod>2023-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2023/05/15/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/</loc>
     
     <lastmod>2023-05-15</lastmod>
@@ -137,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/10/Tools/Website/Blog%20with%20Hexo%20and%20Github/</loc>
+    <loc>http://example.com/2022/04/10/Tools/Website/Image%20Hosting%20with%20Github%20&%20PicGo/</loc>
     
     <lastmod>2023-05-15</lastmod>
     
@@ -146,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/10/Tools/Website/Image%20Hosting%20with%20Github%20&%20PicGo/</loc>
+    <loc>http://example.com/2022/04/10/Tools/Website/Blog%20with%20Hexo%20and%20Github/</loc>
     
     <lastmod>2023-05-15</lastmod>
     
@@ -264,6 +237,33 @@
   
   <url>
     <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
+    
+    <lastmod>2023-05-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
+    
+    <lastmod>2023-05-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(Without%20Quantity)%202006/</loc>
+    
+    <lastmod>2023-05-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/05/15/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/</loc>
     
     <lastmod>2023-05-15</lastmod>
     
