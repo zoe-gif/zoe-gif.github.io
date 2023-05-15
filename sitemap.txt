@@ -1,7 +1,11 @@
+http://example.com/2022/06/10/CS/VBA%20application/
+http://example.com/2022/06/10/CS/VBA%20basics/
 http://example.com/2022/07/08/Math/Differential%20calculus/
 http://example.com/2022/07/08/Math/Statistics%20and%20probability/
 http://example.com/2022/06/10/Other/Glossary%20and%20terms/
 http://example.com/2022/04/10/Tools/Useful%20softwares/
+http://example.com/2022/06/10/CS/Python/Python%20basics/
+http://example.com/2022/07/16/CS/Python/Python%20exercise/
 http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/
 http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/
 http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(Without%20Quantity)%202006/
@@ -33,10 +37,6 @@ http://example.com/categories/index.html
 http://example.com/link/index.html
 http://example.com/tags/index.html
 http://example.com/2022/06/28/CS/CMD/
-http://example.com/2022/06/10/CS/VBA%20application/
-http://example.com/2022/06/10/CS/VBA%20basics/
-http://example.com/2022/06/10/CS/Python/Python%20basics/
-http://example.com/2022/07/16/CS/Python/Python%20exercise/
 http://example.com/
 http://example.com/tags/CMD/
 http://example.com/tags/VBA/
@@ -79,8 +79,8 @@ http://example.com/categories/Tools/3D/
 http://example.com/categories/QS/APC/
 http://example.com/categories/QS/Building-Contract/
 http://example.com/categories/Tools/Office/
-http://example.com/categories/QS/Measurement-Billing/
 http://example.com/categories/Tools/Website/
+http://example.com/categories/QS/Measurement-Billing/
 http://example.com/categories/Tools/Markdown/
 http://example.com/categories/Construction/
 http://example.com/categories/Construction/Building-services/
