@@ -2,43 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/07/08/Math/Differential%20calculus/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/08/Math/Statistics%20and%20probability/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/Other/Glossary%20and%20terms/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2022/04/10/Tools/Useful%20softwares/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
     
     <lastmod>2023-05-17</lastmod>
     
@@ -200,51 +164,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/General%20of%20EE/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Light%20Fittings/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/07/Construction/Building%20services/EE/Read%20EE%20drawing/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/22/Construction/Building%20services/EE/Sundries%20of%20electrical/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Switchgear/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2023-05-17</lastmod>
@@ -299,6 +218,33 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/07/08/Math/Differential%20calculus/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/08/Math/Statistics%20and%20probability/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/Other/Glossary%20and%20terms/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/06/10/CS/Python/Python%20basics/</loc>
     
     <lastmod>2023-05-17</lastmod>
@@ -309,6 +255,15 @@
   
   <url>
     <loc>http://example.com/2022/07/16/CS/Python/Python%20exercise/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
     
     <lastmod>2023-05-17</lastmod>
     
@@ -345,6 +300,51 @@
   
   <url>
     <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Earthing,%20Lightning%20Protection%20and%20Bonding/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/General%20of%20EE/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Light%20Fittings/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/07/Construction/Building%20services/EE/Read%20EE%20drawing/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/22/Construction/Building%20services/EE/Sundries%20of%20electrical/</loc>
+    
+    <lastmod>2023-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Switchgear/</loc>
     
     <lastmod>2023-05-17</lastmod>
     
