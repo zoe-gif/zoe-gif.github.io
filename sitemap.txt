@@ -1,7 +1,6 @@
-http://example.com/2023/05/20/QS/temp/
 http://example.com/2022/04/10/Tools/Useful%20softwares/
-http://example.com/2023/05/20/QS/Measurement%20&%20Billing/HKSMM4%20Intro/
 http://example.com/2023/05/16/QS/Pre-Contract/1.%20Estimating/
+http://example.com/2023/05/21/QS/Pre-Contract/1.1%20Standard%20Work%20Classifications/
 http://example.com/2022/06/10/Tools/2D%20software/AutoCAD%20basics/
 http://example.com/2022/06/10/Tools/3D%20software/3DSMAX%20basics/
 http://example.com/2022/06/10/Tools/3D%20software/ACA%20AutoCAD%20Architecture%20basics/
@@ -27,8 +26,9 @@ http://example.com/2022/06/10/CS/Python/Python%20basics/
 http://example.com/2022/07/16/CS/Python/Python%20exercise/
 http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/
 http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/
-http://example.com/2023/05/20/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/
-http://example.com/2023/05/20/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/
+http://example.com/2023/05/21/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/
+http://example.com/2023/05/21/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/
+http://example.com/2023/05/21/QS/Measurement%20&%20Billing/HKSMM4%20Intro/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Busbar%20system/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Cable%20management/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Circuit%20and%20Accessories/
