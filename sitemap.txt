@@ -29,6 +29,7 @@ http://example.com/2022/06/10/Other/Glossary%20and%20terms/
 http://example.com/2022/06/10/CS/Python/Python%20basics/
 http://example.com/2022/07/16/CS/Python/Python%20exercise/
 http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/
+http://example.com/2023/04/30/QS/Building%20Contract/Notes%20for%20SFBC%20(With%20Quantity)%202005/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Busbar%20system/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Cable%20management/
 http://example.com/2022/06/10/Construction/Building%20services/EE/Circuit%20and%20Accessories/
