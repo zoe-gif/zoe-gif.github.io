@@ -11,6 +11,51 @@
   </url>
   
   <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/Notes%20for%20SFBC%20(With%20Quantity)%202005/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/HKSMM4%20Intro/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/05/16/QS/Pre-Contract/1.%20Estimating/</loc>
     
     <lastmod>2023-05-23</lastmod>
@@ -65,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/05/Tools/3D%20software/Revit%20basics/</loc>
+    <loc>http://example.com/2022/06/10/Tools/3D%20software/Sketchup%20basics/</loc>
     
     <lastmod>2023-05-23</lastmod>
     
@@ -74,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/06/10/Tools/3D%20software/Sketchup%20basics/</loc>
+    <loc>http://example.com/2022/07/05/Tools/3D%20software/Revit%20basics/</loc>
     
     <lastmod>2023-05-23</lastmod>
     
@@ -164,6 +209,24 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/06/28/CS/CMD/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/06/10/CS/VBA%20application/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/06/10/CS/VBA%20basics/</loc>
     
     <lastmod>2023-05-23</lastmod>
@@ -200,52 +263,25 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/06/10/CS/Python/Python%20basics/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/16/CS/Python/Python%20exercise/</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/Notes%20for%20SFBC%20(With%20Quantity)%202005/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/05/23/QS/Measurement%20&%20Billing/HKSMM4%20Intro/</loc>
     
     <lastmod>2023-05-23</lastmod>
     
@@ -327,42 +363,6 @@
   
   <url>
     <loc>http://example.com/2022/06/10/Construction/Building%20services/EE/Switchgear/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/28/CS/CMD/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/CS/VBA%20application/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/10/CS/Python/Python%20basics/</loc>
-    
-    <lastmod>2023-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/16/CS/Python/Python%20exercise/</loc>
     
     <lastmod>2023-05-23</lastmod>
     
@@ -527,14 +527,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Revit/</loc>
+    <loc>http://example.com/tags/SketchUp/</loc>
     <lastmod>2023-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/SketchUp/</loc>
+    <loc>http://example.com/tags/Revit/</loc>
     <lastmod>2023-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
