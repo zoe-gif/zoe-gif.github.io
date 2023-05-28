@@ -1,9 +1,9 @@
 http://example.com/2022/04/10/Tools/Useful%20softwares/
 http://example.com/2023/04/30/QS/Building%20Contract/Notes%20for%20SFBC%20(With%20Quantity)%202005/
 http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20(With%20Quantity)%202005/
-http://example.com/2023/05/25/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/
-http://example.com/2023/05/25/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/
-http://example.com/2023/05/25/QS/Measurement%20&%20Billing/HKSMM4%20Intro/
+http://example.com/2023/05/28/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/
+http://example.com/2023/05/28/QS/Measurement%20&%20Billing/Estimating%20and%20Management%20for%20simple%20building%20works%20in%20HK%20reading%20notes/
+http://example.com/2023/05/28/QS/Measurement%20&%20Billing/HKSMM4%20Intro/
 http://example.com/2023/05/16/QS/Pre-Contract/1.%20Estimating/
 http://example.com/2023/05/21/QS/Pre-Contract/1.1%20Standard%20Work%20Classifications/
 http://example.com/2022/06/10/Tools/2D%20software/AutoCAD%20basics/
