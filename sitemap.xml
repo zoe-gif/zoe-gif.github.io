@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/2023/04/30/QS/Building%20Contract/SFBC%20Notes/</loc>
+    
+    <lastmod>2023-06-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/11/22/QS/Measurement%20&%20Billing/Elements%20of%20Quantity%20Surveying%20reading%20notes/</loc>
     
     <lastmod>2023-06-20</lastmod>
@@ -65,16 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/05/28/QS/Pre-Contract/2.%20Life%20Cycle%20Costing/</loc>
-    
-    <lastmod>2023-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/06/20/QS/Pre-Contract/temp/</loc>
+    <loc>http://example.com/2023/05/28/QS/Pre-Contract/2.%20Lift%20Cycle%20Costing%20(LCC)/</loc>
     
     <lastmod>2023-06-20</lastmod>
     
@@ -291,15 +291,6 @@
   
   <url>
     <loc>http://example.com/2023/04/30/QS/APC/HKIS%20APC%20Intro/</loc>
-    
-    <lastmod>2023-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/04/30/QS/Building%20Contract/Notes%20for%20SFBC%20(With%20Quantity)%202005/</loc>
     
     <lastmod>2023-06-20</lastmod>
     
@@ -659,14 +650,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/QS/APC/</loc>
+    <loc>http://example.com/categories/Tools/2D/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/2D/</loc>
+    <loc>http://example.com/categories/QS/APC/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -687,14 +678,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/QS/Measurement-Billing/</loc>
+    <loc>http://example.com/categories/Tools/Office/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/Office/</loc>
+    <loc>http://example.com/categories/QS/Measurement-Billing/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -715,14 +706,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/QS/Pre-Contract/</loc>
+    <loc>http://example.com/categories/Construction/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Construction/</loc>
+    <loc>http://example.com/categories/QS/Pre-Contract/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
